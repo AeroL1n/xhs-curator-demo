@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>灵感主理人 AI Curator · 交互 demo（v2）</title>
+<title>灵感主理人 AI Curator · 交互 demo（v3）</title>
+<link rel="icon" href="data:,">
 <style>
 :root{--red:#FF2442;--red-text:#C81E3A;--pink:#FFF0F2;--pink2:#FFF5F6;--blue:#F3F6FA;--ink:#222;--ink2:#666;--ink3:#757575;--line:#EDEDED;--bg:#F6F6F6;--k:1;
 --font:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",sans-serif}
@@ -17,10 +18,10 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .panel{width:300px;flex:none;max-height:100%;overflow:auto;background:#fff;border-radius:18px;padding:22px 20px;box-shadow:0 1px 2px rgba(20,30,50,.08),0 10px 28px rgba(20,30,50,.07)}
 .panel h1{font-size:17px;font-weight:700;line-height:1.3}
 .panel .sub{font-size:12px;color:var(--ink3);margin-top:4px}
-.trk{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin:20px 0 14px;position:relative}
-.trk:before{content:"";position:absolute;left:12%;right:12%;top:17px;height:2px;background:#E8EAEE}
+.trk{display:grid;grid-template-columns:repeat(5,1fr);gap:2px;margin:20px 0 14px;position:relative}
+.trk:before{content:"";position:absolute;left:10%;right:10%;top:16px;height:2px;background:#E8EAEE}
 .nd{position:relative;text-align:center;font-size:12px;color:var(--ink3);line-height:1.3}
-.nd i{display:grid;place-items:center;width:36px;height:36px;margin:0 auto 6px;border-radius:50%;background:#EEF0F3;font:600 15px var(--font);color:var(--ink2);transition:background .25s,color .25s,transform .25s}
+.nd i{display:grid;place-items:center;width:32px;height:32px;margin:0 auto 6px;border-radius:50%;background:#EEF0F3;font:600 14px var(--font);font-style:normal;color:var(--ink2);transition:background .25s,color .25s,transform .25s}
 .nd.done i{background:#FFD9DF;color:var(--red-text)}
 .nd.on i{background:var(--red);color:#fff;transform:scale(1.1)}
 .nd.on{color:var(--ink);font-weight:600}
@@ -95,8 +96,6 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .cx{position:absolute;right:20px;top:14px;width:44px;height:44px;border-radius:50%;display:none;place-items:center;font-size:14px;color:var(--ink3);z-index:2}
 .capin.x .cx{display:grid}
 .capin.x .chev{visibility:hidden}
-.cap.done{height:40px;width:auto;display:inline-flex;padding:0 16px;background:#fff;border:1px solid #FFD0D8;pointer-events:none;color:var(--red-text);font-size:14px;font-weight:600}
-.cap.done:before{display:none}
 .feed{display:flex;gap:8px;align-items:flex-start;padding:8px 8px 0}
 .col{flex:1;min-width:0;display:flex;flex-direction:column;gap:8px}
 .card{position:relative;background:#fff;border-radius:10px;overflow:hidden;transition:box-shadow calc(200ms*var(--k)) ease-out}
@@ -107,18 +106,41 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .au{display:flex;align-items:center;gap:6px;padding:2px 10px 10px;font-size:12px;color:var(--ink3)}
 .au i{flex:none;width:16px;height:16px;border-radius:50%}
 .au em{margin-left:auto;font-style:normal}
-.card.ring{box-shadow:0 0 0 2px rgba(255,36,66,.6),0 0 16px rgba(255,36,66,.4)}
-.bdg{position:absolute;right:8px;bottom:8px;width:16px;height:16px;border-radius:50%;background:var(--pink);color:var(--red-text);font-size:11px;font-weight:700;display:grid;place-items:center;box-shadow:0 0 0 1px #FFD0D8;animation:pop calc(300ms*var(--k)) cubic-bezier(.3,1.6,.5,1) backwards}
-@keyframes pop{from{transform:scale(0)}to{transform:scale(1)}}
-.album{overflow:hidden;height:0;transition:height calc(300ms*var(--k)) cubic-bezier(.2,.8,.2,1)}
-.album.in{height:76px}
-.alb{display:flex;gap:12px;align-items:center;margin:8px 8px 0;height:68px;padding:0 12px;border-radius:12px;background:#fff;transition:box-shadow calc(200ms*var(--k))}
-.alb.flash{box-shadow:0 0 0 2px rgba(255,36,66,.55)}
-.alb .cvr{flex:none;width:48px;height:48px;border-radius:10px;display:grid;place-items:center;font-size:24px}
-.alb b{display:block;font-size:14px}
-.alb small{font-size:12px;color:var(--ink3)}
-.alb .tg{margin-left:auto;font-size:12px;color:var(--red-text);background:var(--pink);border-radius:9px;padding:1px 8px}
+.subtabs{display:flex;gap:28px;padding:0 16px;background:#fff}
+.st{min-height:44px;font-size:14px;color:var(--ink3)}
+.st.on{color:var(--ink);font-weight:600}
+.albums{padding:10px 12px 0}
+.alc{display:block;width:100%;margin-bottom:10px;padding:14px;border-radius:12px;background:#fff;text-align:left;transition:box-shadow calc(200ms*var(--k))}
+.alc .alt{font-size:16px;font-weight:600}
+.alc .acn{font-size:12px;color:var(--ink3);margin-top:3px}
+.alc .acn em{font-style:normal;color:var(--red-text)}
+.alc.flash{box-shadow:0 0 0 2px rgba(255,36,66,.55)}
+.ath{display:flex;gap:8px;margin-top:12px}
+.ath i{flex:1;aspect-ratio:1;border-radius:8px;display:grid;place-items:center;font-size:26px;font-style:normal}
 .nav{position:absolute;left:0;right:0;bottom:0;height:86px;z-index:8;display:flex;justify-content:space-around;padding-top:10px;background:rgba(255,255,255,.96);border-top:1px solid var(--line);font-size:14px;color:var(--ink2)}
+.apage{position:absolute;left:0;right:0;top:52px;bottom:0;z-index:35;display:none;flex-direction:column;background:var(--bg)}
+.apage.on{display:flex}
+.aph{flex:none;display:flex;justify-content:space-between;align-items:center;height:48px;padding:0 4px;background:#fff}
+.aph .ib{width:44px;height:44px;display:grid;place-items:center}
+.aph .ib .ic{width:22px;height:22px}
+.aph .flip .ic{transform:rotate(180deg)}
+.apb{flex:1;overflow-y:auto;scrollbar-width:none;padding-bottom:40px}
+.apb::-webkit-scrollbar{display:none}
+.ahd{background:#fff;padding:6px 16px 0}
+.atl{display:flex;align-items:center;justify-content:space-between}
+.atl h2{font-size:24px;font-weight:700}
+.mgr{border:1px solid #D9D9D9;border-radius:16px;padding:0 14px;height:32px;line-height:30px;font-size:14px}
+.aint{font-size:14px;color:var(--ink3);margin:10px 0 14px}
+.ashr{display:flex;align-items:center;gap:8px;height:52px;border-top:1px solid #F3F3F3;font-size:14px;color:var(--ink2)}
+.ashr .ava{width:28px;height:28px;border-radius:50%;background:var(--red);color:#fff;display:grid;place-items:center;font-size:13px;font-weight:700}
+.ashr .inv{width:28px;height:28px;border-radius:50%;background:#F0F0F0;color:#999;display:grid;place-items:center;margin-left:-14px;font-size:18px}
+.ashr em{margin-left:auto;font-style:normal;font-size:13px;color:var(--ink3)}
+.sumc{display:flex;align-items:center;gap:10px;width:calc(100% - 24px);margin:10px 12px 0;padding:12px;min-height:60px;border-radius:12px;background:var(--pink2);box-shadow:inset 0 0 0 1px rgba(255,36,66,.16);text-align:left}
+.sct{flex:1;min-width:0}
+.sct b{display:flex;align-items:center;gap:6px;font-size:15px}
+.sct b em{font-style:normal;font-size:12px;font-weight:600;color:var(--red-text);background:#FFE6EA;border-radius:8px;padding:0 6px;line-height:18px}
+.sct small{display:block;font-size:12px;color:var(--ink3);margin-top:2px}
+.spg{flex:none;font-size:12px;font-weight:600;color:var(--red-text);background:#FFE6EA;border-radius:10px;padding:2px 9px}
 .nav span{height:30px}
 .nav .on{color:var(--ink);font-weight:700}
 .nav .plus{width:46px;height:30px;border-radius:9px;background:var(--red);color:#fff;text-align:center;line-height:28px;font-size:22px}
@@ -174,17 +196,35 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .crb{padding:0 12px 4px;font-size:13px;color:var(--ink2);line-height:1.5}
 .crb .mini{padding:6px 0 0}
 .lnk{display:inline-flex;align-items:center;min-height:44px;font-size:13px;font-weight:600;color:var(--red-text)}
-.srcs{padding:0 0 12px}
-.srch{font-size:12px;font-weight:600;color:var(--ink2);margin-bottom:8px}
-.srcb{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none}
-.sc{position:relative;flex:none;width:48px;height:64px;border-radius:8px;display:grid;place-items:center;font-size:20px;cursor:pointer}
-.sc b{position:absolute;right:-3px;bottom:-3px;width:16px;height:16px;border-radius:50%;border:2px solid #fff}
+.subl{position:relative;display:inline-block;font-size:12px;color:var(--ink3);margin-top:1px}
+.subl:after{content:"";position:absolute;inset:-12px -8px}
+.subl .ic{width:12px;height:12px;margin-left:2px}
+.sv{flex:1;min-height:0;display:flex;flex-direction:column}
+.svh{flex:none;display:flex;align-items:center;gap:4px;padding:0 16px 4px 6px}
+.svh b{font-size:15px}
+.svbk{display:flex;align-items:center;min-height:44px;padding:0 8px;font-size:14px;color:var(--ink2)}
+.svbk .ic{width:18px;height:18px;transform:rotate(180deg)}
+.svl{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:0 16px 24px;scrollbar-width:none}
+.svl::-webkit-scrollbar{display:none}
+.svr{display:flex;align-items:center;gap:12px;padding:8px 0;border-top:1px solid rgba(0,0,0,.06)}
+.svc{flex:none;width:48px;height:64px;border-radius:8px;display:grid;place-items:center;font-size:20px;font-style:normal;cursor:pointer}
+.svt{flex:1;min-width:0;cursor:pointer}
+.svt b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:14px;font-weight:600;line-height:1.35}
+.svt small{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--ink3);margin-top:4px}
+.sva{width:14px;height:14px;border-radius:50%;display:inline-block}
+.rmv{flex:none;min-height:44px;padding:0 12px;border-radius:10px;font-size:13px;font-weight:600;color:var(--ink2)}
+.rmv:hover{background:rgba(0,0,0,.05)}
+.wr{position:relative;margin-left:auto;font-size:12px;color:var(--ink3);text-decoration:underline;text-underline-offset:3px}
+.wr:after{content:"";position:absolute;inset:-12px -8px}
 .sf{flex:none;padding:10px 16px 28px;background:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,.92) 28%)}
 .go{display:block;width:100%;height:48px;border-radius:24px;background:var(--red);color:#fff;font-size:16px;font-weight:600;transition:transform calc(120ms*var(--k)) ease-out}
 .go:active{transform:scale(.98)}
-.toast{position:absolute;left:16px;right:16px;bottom:34px;z-index:70;display:flex;align-items:center;gap:12px;min-height:48px;padding:0 8px 0 18px;border-radius:24px;background:rgba(34,34,34,.95);color:#fff;font-size:14px;opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity calc(200ms*var(--k)),transform calc(200ms*var(--k))}
+.go:disabled{background:#E3E4E8;color:#A0A3AB;cursor:default;transform:none}
+.gcap{font-size:12px;color:var(--ink3);text-align:center;margin-top:6px}
+.toast{position:absolute;left:16px;right:16px;bottom:34px;z-index:70;display:flex;align-items:center;gap:2px;min-height:48px;padding:0 6px 0 18px;border-radius:24px;background:rgba(34,34,34,.95);color:#fff;font-size:14px;opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity calc(200ms*var(--k)),transform calc(200ms*var(--k))}
 .toast.on{opacity:1;transform:none;pointer-events:auto}
-.toast button{margin-left:auto;min-height:44px;padding:0 12px;font-weight:600;color:#FFB3BF}
+.toast span{margin-right:auto;padding-right:6px}
+.toast button{min-height:44px;padding:0 9px;font-weight:600;color:#FFB3BF}
 .hint{position:absolute;left:50%;top:46%;z-index:75;transform:translate(-50%,8px);padding:10px 16px;border-radius:20px;background:rgba(34,34,34,.9);color:#fff;font-size:14px;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity calc(180ms*var(--k)),transform calc(180ms*var(--k))}
 .hint.on{opacity:1;transform:translate(-50%,0)}
 .mcatch{position:absolute;inset:0;z-index:80;display:none}
@@ -194,23 +234,52 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .menu button:hover{background:#F4F4F6}
 .menu .dg{color:var(--red-text)}
 .rm .cap:before,.rm .cap .dot{animation:none!important}
-.rm .slot,.rm .capin,.rm .fold,.rm .album{transition-duration:.15s!important}
-.rm .bdg{animation:none}
+.rm .slot,.rm .capin,.rm .fold{transition-duration:.15s!important}
+.ic{display:inline-block;width:1em;height:1em;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;vertical-align:-.15em}
+.bx .ic{width:14px;height:14px;stroke-width:3}
+.ico .ic{width:22px;height:22px;color:var(--red-text)}
+.mh .ic{width:18px;height:18px}
+.mod.eq .mh .ic{color:var(--red-text)}
+#mRt .mh .ic{color:#157A3D}
+#mPit .mh .ic{color:#B25E00}
+.chev .ic{width:20px;height:20px;stroke-width:2.4}
+.cx .ic{width:14px;height:14px}
+.ib .ic{width:20px;height:20px}
+.more .ic{width:14px;height:14px;margin-left:2px}
+.gobtn .ic,.lnk .ic{width:14px;height:14px;margin-left:2px}
+.au .ic{width:13px;height:13px;margin-right:3px;vertical-align:-2px}
+.nav .plus .ic{width:18px;height:18px;stroke-width:2.8;vertical-align:-3px}
 @media (max-width:760px){body{overflow:auto}.stage{height:auto;min-height:100%;flex-direction:column-reverse;justify-content:flex-end;gap:16px}.panel{width:100%;max-width:410px;max-height:none}}
 </style>
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+<symbol id="i-more" viewBox="0 0 24 24"><g fill="currentColor" stroke="none"><circle cx="5.5" cy="12" r="1.9"/><circle cx="12" cy="12" r="1.9"/><circle cx="18.5" cy="12" r="1.9"/></g></symbol>
+<symbol id="i-chev-r" viewBox="0 0 24 24"><path d="M9 5.5l6.5 6.5L9 18.5"/></symbol>
+<symbol id="i-chev-d" viewBox="0 0 24 24"><path d="M5.5 9l6.5 6.5L18.5 9"/></symbol>
+<symbol id="i-chev-u" viewBox="0 0 24 24"><path d="M5.5 15l6.5-6.5L18.5 15"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+<symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.6-7 10-7 10z"/></symbol>
+<symbol id="i-tent" viewBox="0 0 24 24"><path d="M2.5 19.5L12 4.5l9.5 15zM12 4.5v15M8.8 19.5L12 13l3.2 6.5"/></symbol>
+<symbol id="i-list" viewBox="0 0 24 24"><rect x="5.5" y="4" width="13" height="17" rx="2.5"/><path d="M9 3.2h6v3H9zM9 11h6M9 15h6"/></symbol>
+<symbol id="i-map" viewBox="0 0 24 24"><path d="M9 4.5L3.5 6.8v12.7L9 17.2l6 2.3 5.5-2.3V4.5L15 6.8zM9 4.5v12.7M15 6.8v12.7"/></symbol>
+<symbol id="i-warn" viewBox="0 0 24 24"><path d="M12 4l9.5 16.5h-19zM12 10v4.6M12 17.4v.3"/></symbol>
+<symbol id="i-share" viewBox="0 0 24 24"><path d="M14 5l6.5 6.5L14 18M20.5 11.5H10a6 6 0 00-6 6v1.5"/></symbol>
+</defs></svg>
 <div class="stage" id="stage">
 <aside class="panel" aria-label="展示者面板">
 <h1>灵感主理人 AI Curator</h1>
-<p class="sub">交互 demo · 对应 v2 方案第 3 节状态机</p>
+<p class="sub">交互 demo · 对应 v3 方案第 3 节状态机</p>
 <div class="row2"><button class="btn pri" id="auto">看核心链路演示</button><button class="btn" id="rst">自己试试</button></div>
 <div class="nar idle" id="nar" aria-live="polite"></div>
 <div class="trk" id="trk">
-<div class="nd" data-g="A"><i>A</i>默认主页</div>
-<div class="nd" data-g="B"><i>B</i>点击触发</div>
-<div class="nd" data-g="C"><i>C</i>灵感看板</div>
-<div class="nd" data-g="D"><i>D</i>反馈闭环</div>
+<div class="nd" data-g="A"><i>A</i>收藏页</div>
+<div class="nd" data-g="B"><i>B</i>点击胶囊</div>
+<div class="nd" data-g="C"><i>C</i>整理看板</div>
+<div class="nd" data-g="D"><i>D</i>整理专辑</div>
+<div class="nd" data-g="P"><i>P</i>专辑页</div>
 </div>
 <div class="cur" aria-live="polite"><b id="stName"></b><p id="stDesc"></p><p class="nx" id="stNext"></p></div>
 <div class="trail" id="trail" aria-label="状态轨迹"></div>
@@ -218,7 +287,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 <button class="btn" id="spd" aria-pressed="false">0.5 倍慢放</button>
 <button class="btn" id="rmb" aria-pressed="false">关闭动效</button>
 </div>
-<div class="hap"><i id="hapDot"></i>触感反馈：按压胶囊、存清单成功时亮起</div>
+<div class="hap"><i id="hapDot"></i>触感反馈：按压胶囊、整理成功时亮起</div>
 <p class="note">演示中，忽略胶囊不会进入冷却，便于反复体验。笔记、营地和数据均为虚构。</p>
 </aside>
 <div class="wrap" id="wrap"><div class="phone" id="phone"><div class="screen" id="screen">
@@ -231,29 +300,34 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 <div class="stats"><span><b>86</b>关注</span><span><b>1.2万</b>粉丝</span><span><b>3.4万</b>获赞与收藏</span></div>
 </div>
 <div class="tabs" role="tablist"><button class="tab" role="tab" data-t="notes">笔记 24</button><button class="tab on" role="tab" data-t="fav">收藏 3628</button><button class="tab" role="tab" data-t="likes">赞过 810</button></div>
+<div class="subtabs" id="subtabs"><button class="st on" data-s="notes">笔记 <span id="nCnt">3628</span></button><button class="st" data-s="albums">专辑 <span id="aN">3</span></button></div>
 <div class="slot" id="slot"><div class="capin" id="capin">
-<button class="cap" id="cap" aria-label="AI 灵感，周末天气正好，为你唤醒 12 篇沉睡的露营攻略，双击打开"><span class="dot"></span><span class="ct"><span class="c1">周末天气正好，为你唤醒 12 篇沉睡的露营攻略</span><span class="c2">点开看 AI 整理好的干货卡片</span></span><span class="chev">›</span></button>
-<button class="cx" id="cx" aria-label="更多选项">✕</button>
+<button class="cap" id="cap" aria-label="AI 灵感，天气正好，12 篇露营收藏，7 篇都推荐天幕、蛋卷桌，双击打开"><span class="dot"></span><span class="ct"><span class="c1">天气正好：12 篇露营收藏</span><span class="c2">7 篇都推荐：天幕、蛋卷桌</span></span><span class="chev"><svg class="ic" aria-hidden="true"><use href="#i-chev-r"/></svg></span></button>
+<button class="cx" id="cx" aria-label="更多选项"><svg class="ic" aria-hidden="true"><use href="#i-close"/></svg></button>
 </div></div>
-<div class="album" id="album"></div>
+<div class="albums" id="albums" hidden></div>
 <div class="feed" id="feed"></div>
 </div>
-<nav class="nav"><span>首页</span><span>市集</span><span class="plus">+</span><span>消息</span><span class="on">我</span></nav>
+<nav class="nav"><span>首页</span><span>市集</span><span class="plus"><svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></span><span>消息</span><span class="on">我</span></nav>
+<div class="apage" id="apage"><div class="aph"><button class="ib flip" id="abk" aria-label="返回"><svg class="ic" aria-hidden="true"><use href="#i-chev-r"/></svg></button><button class="ib" aria-label="分享"><svg class="ic" aria-hidden="true"><use href="#i-share"/></svg></button></div>
+<div class="apb" id="apb"><div class="ahd"><div class="atl"><h2 id="aTitle"></h2><span class="mgr">管理</span></div><p class="aint">暂无简介</p><div class="ashr"><span class="ava">薯</span><span class="inv">+</span>邀请好友共享<em id="aCnt"></em></div></div>
+<button class="sumc" id="sumc" hidden aria-label="整理看板，点按打开"><span class="ico"><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg></span><span class="sct"><b>整理看板<em>AI 整理</em></b><small id="sumS">3 个营地 · 2 条坑</small></span><span class="spg" id="sumP">已备 0/8</span><svg class="ic" aria-hidden="true" style="width:18px;height:18px;color:var(--ink3)"><use href="#i-chev-r"/></svg></button>
+<div class="feed" id="afeed"></div></div></div>
 <div class="scrim" id="scrim"></div>
 <div class="sw" id="sw">
 <section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="shT">
 <div class="sh" id="shHead"><div class="grab"></div>
-<div class="ttl"><span class="ico">⛺</span><div class="tt"><h2 id="shT" tabindex="-1">秋日露营 · 干货结晶看板</h2><p>AI 整理自你收藏的 12 篇笔记</p></div>
-<button class="ib" id="more" aria-label="更多">···</button><button class="ib" id="close" aria-label="关闭">✕</button></div></div>
+<div class="ttl"><span class="ico"><svg class="ic" aria-hidden="true"><use href="#i-tent"/></svg></span><div class="tt"><h2 id="shT" tabindex="-1">秋日露营 · 整理看板</h2><p><button class="subl" id="subL" aria-label="查看来源笔记">整理自 <span id="srcN">12</span> 篇笔记<svg class="ic" aria-hidden="true"><use href="#i-chev-r"/></svg></button></p></div>
+<button class="ib" id="more" aria-label="更多"><svg class="ic" aria-hidden="true"><use href="#i-more"/></svg></button><button class="ib" id="close" aria-label="关闭"><svg class="ic" aria-hidden="true"><use href="#i-close"/></svg></button></div></div>
 <div class="sbody" id="sbody">
 <div class="mod eq rv" id="mEq"></div>
 <div class="duo" id="duo"><div class="mod rt rv" id="mRt" role="button" tabindex="0"></div><div class="mod pit rv" id="mPit" role="button" tabindex="0"></div></div>
-<div class="srcs rv" id="srcs"></div>
 </div>
-<div class="sf"><button class="go" id="go">存为清单</button></div>
+<div class="sv" id="sv" hidden><div class="svh"><button class="svbk" id="svBack" aria-label="返回看板"><svg class="ic" aria-hidden="true"><use href="#i-chev-r"/></svg>返回</button><b>来源笔记</b></div><div class="svl" id="svl"></div></div>
+<div class="sf" id="sf"><button class="go" id="go">整理成专辑</button><p class="gcap" id="gcap">12 篇将加入新专辑，原收藏不变</p></div>
 </section></div>
 <div class="mcatch" id="mcatch"></div><div class="menu" id="menu" role="menu"></div>
-<div class="toast" id="toast" role="status"><span id="toastT"></span><button id="toastB" hidden></button></div>
+<div class="toast" id="toast" role="status"><span id="toastT"></span><button id="toastB" hidden></button><button id="toastB2" hidden></button></div>
 <div class="hint" id="hint" role="status"></div>
 <div class="finger" id="finger"></div>
 <div class="home"></div>
@@ -267,9 +341,11 @@ const SH=844,C1=Math.round(SH*.62),C2=Math.round(SH*.92);
 const S={speed:1,rm:matchMedia('(prefers-reduced-motion: reduce)').matches};
 const T=ms=>ms/S.speed,sleep=ms=>new Promise(r=>setTimeout(r,T(ms)));
 const el={};
-['stage','wrap','phone','screen','scroll','slot','capin','cap','cx','album','feed','scrim','sw','sheet','shHead','shT','more','close','sbody','mEq','duo','mRt','mPit','srcs','go','mcatch','menu','toast','toastT','toastB','hint','stName','stDesc','stNext','trail','hapDot','rst','spd','rmb','auto','nar','finger'].forEach(k=>el[k]=document.getElementById(k));
+['stage','wrap','phone','screen','scroll','slot','capin','cap','cx','subtabs','albums','apage','apb','aTitle','aCnt','sumc','sumS','sumP','afeed','abk','feed','scrim','sw','sheet','shHead','shT','more','close','sbody','mEq','duo','mRt','mPit','subL','srcN','sv','svl','svBack','sf','gcap','go','mcatch','menu','toast','toastT','toastB','toastB2','hint','stName','stDesc','stNext','trail','hapDot','rst','spd','rmb','auto','nar','finger'].forEach(k=>el[k]=document.getElementById(k));
 const G=[['#FFB48A','#FF7A59'],['#9BD8A8','#4FA36A'],['#FFD58A','#F29A38'],['#A8C8FF','#5F8BE8'],['#FFB6CF','#F0678F'],['#CDB8FF','#8A6BE0'],['#B7E4E0','#3FA7A0'],['#F6C8A0','#D9824A']];
 const grad=i=>`linear-gradient(160deg,${G[i%8][0]},${G[i%8][1]})`;
+const ic=n=>`<svg class="ic" aria-hidden="true"><use href="#i-${n}"/></svg>`;
+const EXP=`展开全部 8 项${ic('chev-d')}`,COL=`收起${ic('chev-u')}`;
 // 示例数据，全部虚构。字段：标题、作者、图标、点赞、收藏时间
 const CAMP=[
 ['新手露营避坑清单，踩过的雷都在这里','阿杭爱露营','⛺','2.1万','3 个月前'],
@@ -299,26 +375,32 @@ const MINE=[['周末小记：公园野餐','薯队长','🧺','312','3 天前'],
 const LIKED=OTHER.slice(2,6);
 const ORDER=[['o',0],['c',0],['c',1],['o',1],['c',2],['o',2],['c',3],['c',4],['o',3],['c',5],['c',6],['o',4],['c',7],['o',5],['c',8],['o',6],['c',9],['o',7],['c',10],['o',8],['c',11],['o',9]];
 const HS=[148,186,164,204,156,196];
-function cardHtml(n,i,src,fav){const h=HS[i%6];return `<article class="card${src?' src':''}"><div class="cv" style="height:${h}px;background:${grad(i)}"><span class="em">${n[2]}</span><span class="age">${fav?'收藏于 ':''}${n[4]}</span></div><h3 class="ti">${n[0]}</h3><div class="au"><i style="background:${grad(i+3)}"></i>${n[1]}<em>♡ ${n[3]}</em></div></article>`}
+function cardHtml(n,i,src,fav){const h=HS[i%6];return `<article class="card${src?' src':''}"><div class="cv" style="height:${h}px;background:${grad(i)}"><span class="em">${n[2]}</span><span class="age">${fav?'收藏于 ':''}${n[4]}</span></div><h3 class="ti">${n[0]}</h3><div class="au"><i style="background:${grad(i+3)}"></i>${n[1]}<em>${ic('heart')}${n[3]}</em></div></article>`}
+function colsHtml(items,fav){
+  const cols=[[],[]],hs=[0,0];
+  items.forEach((it,i)=>{const c=hs[0]<=hs[1]?0:1;hs[c]+=HS[i%6]+84;cols[c].push(cardHtml(it.n,i,it.src,fav))});
+  return cols.map(c=>`<div class="col">${c.join('')}</div>`).join('');
+}
 function renderFeed(tab){
   const items=tab==='fav'?ORDER.map(([k,j])=>k==='c'?{n:CAMP[j],src:1}:{n:OTHER[j]}):(tab==='notes'?MINE:LIKED).map(n=>({n}));
-  const cols=[[],[]],hs=[0,0];
-  items.forEach((it,i)=>{const c=hs[0]<=hs[1]?0:1;hs[c]+=HS[i%6]+84;cols[c].push(cardHtml(it.n,i,it.src,tab==='fav'))});
-  el.feed.innerHTML=cols.map(c=>`<div class="col">${c.join('')}</div>`).join('');
-  if(saved)addBadges(false);
+  el.feed.innerHTML=colsHtml(items,tab==='fav');
 }
-let st='',tab='fav',p=0,scale=1,saved=false,cool=false,forever=false,ignores=0,touched=false,sheetOpen=false,capOn=false,token=0,raf=0,prevFocus=null;
+let st='',tab='fav',sub='notes',p=0,scale=1,saved=false,cool=false,forever=false,ignores=0,touched=false,sheetOpen=false,capOn=false,token=0,raf=0,prevFocus=null;
+let fromAlbum=false,curAlb=null,albumIds=[];
+const removed=new Set();
 let visited=new Set(),trail=[];
 const INFO={
-A0:['A0 无推荐','普通收藏列表，没有新增元素。','点「自己试试」重新触发，或切换 Tab 再回到收藏'],
+A0:['A0 无推荐','普通收藏列表，没有新增元素。','点「自己试试」重新触发，或切换子 tab 再回到「笔记」'],
 A1:['A1 胶囊待机','胶囊淡入并呼吸 3 次，之后静止。','点按胶囊；长按 0.4 秒出菜单；右键也可'],
 B:['B 按压','胶囊缩放到 0.97，触发一次轻触感。','松手进入看板；手指移出胶囊则取消'],
-C1:['C1 半屏看板（62%）','看板弹起，三个模块依次浮现。','勾选装备；点路线或避坑；上拉到 92%；存为清单；下滑关闭'],
-C2:['C2 大屏看板（92%）','可见区域更大，内容与 C1 相同。','拖拽把手回到半屏；下滑关闭；存为清单'],
-C3:['C3 条目展开','对应模块就地展开，看板升到 92%。','再点一次收起；点来源缩略图会提示跳转原笔记'],
-D1:['D1 已存清单','看板缩回胶囊，来源笔记挂「已回顾」角标，清单出现在收藏里。','点「自己试试」再来一遍'],
-D2:['D2 直接关闭','看板滑出，胶囊保持静止，无 toast、无角标。','可再次点按胶囊；切换 Tab 回来后进入冷却'],
-D3:['D3 不再推荐','胶囊收起，4 秒内可撤销。','点 toast 里的「撤销」，或点「自己试试」']};
+C1:['C1 半屏看板（62%）','看板弹起，三个模块依次浮现。','勾选装备；点路线或坑；点副标题看来源；上拉到 92%；整理成专辑；下滑关闭'],
+C2:['C2 大屏看板（92%）','可见区域更大，内容与 C1 相同。','拖拽把手回到半屏；下滑关闭；整理成专辑'],
+C3:['C3 条目展开','对应模块就地展开，看板升到 92%。','再点一次收起；点来源缩略图会提示跳转原笔记；点「有误？」反馈'],
+C4:['C4 来源列表','列出这批笔记，每行右侧可「移出」。','移出分错的笔记（少于 5 篇主按钮置灰）；返回看板'],
+D1:['D1 已整理成专辑','看板和胶囊一起收起，笔记原样留在列表里，「专辑」数字加 1。','点 toast 里的「去看看」或「撤销」'],
+D2:['D2 直接关闭','看板滑出，胶囊保持静止，无 toast。','可再次点按胶囊；切换子 tab 回来后进入冷却'],
+D3:['D3 不再推荐','胶囊收起，4 秒内可撤销。','点 toast 里的「撤销」，或点「自己试试」'],
+P:['P 专辑页摘要卡','专辑顶部的摘要卡保存了整理结果和勾选进度。','点摘要卡再打开看板；返回回到专辑列表']};
 function setState(s){
   if(s===st)return;
   st=s;const i=INFO[s],g=s[0];
@@ -368,21 +450,22 @@ function haptic(){
 }
 let tt=0,ht=0;
 function hideToast(){clearTimeout(tt);el.toast.classList.remove('on')}
-function toast(msg,label,fn,ms=3000){
+function toast(msg,acts=[],ms=3000){
   clearTimeout(tt);el.toastT.textContent=msg;
-  el.toastB.hidden=!label;
-  if(label){el.toastB.textContent=label;el.toastB.onclick=()=>{hideToast();fn&&fn()}}
+  [el.toastB,el.toastB2].forEach((b,i)=>{
+    const a=acts[i];b.hidden=!a;
+    if(a){b.textContent=a[0];b.onclick=()=>{hideToast();a[1]&&a[1]()}}
+  });
   el.toast.classList.add('on');tt=setTimeout(hideToast,T(ms));
 }
 function hint(msg){
   clearTimeout(ht);el.hint.textContent=msg;el.hint.classList.add('on');ht=setTimeout(()=>el.hint.classList.remove('on'),T(1600));
 }
-const CAP_HTML=el.cap.innerHTML;
 function showCap(quiet){
   capOn=true;touched=false;
-  el.cap.classList.remove('done','breathe');el.cap.innerHTML=CAP_HTML;
+  el.cap.classList.remove('breathe');
   el.capin.classList.toggle('x',ignores>=2);
-  el.slot.classList.remove('out','chip');
+  el.slot.classList.remove('out');
   void el.cap.offsetWidth;
   if(!quiet&&!S.rm)el.cap.classList.add('breathe');
   el.slot.classList.add('show');
@@ -392,39 +475,53 @@ function hideCap(instant){
   capOn=false;
   if(instant)el.slot.style.transition='none';
   else el.slot.classList.add('out');
-  el.slot.classList.remove('show','chip');
+  el.slot.classList.remove('show');
   if(instant){void el.slot.offsetWidth;el.slot.style.transition=''}
 }
-function showChip(instant){
-  capOn=false;
-  el.cap.classList.remove('breathe');el.cap.classList.add('done');el.cap.textContent='✓ 已整理 · 秋日露营';
-  el.capin.classList.remove('x');
-  if(instant)el.slot.style.transition='none';
-  el.slot.classList.remove('out');el.slot.classList.add('show','chip');
-  if(instant){void el.slot.offsetWidth;el.slot.style.transition=''}
+const BASE=[
+{t:'周末探店',n:18,e:['☕','🍜','🥐','🍰'],o:[0,5,3,9,7,1]},
+{t:'通勤穿搭',n:26,e:['👜','🧥','👗','👟'],o:[1,6,3,9,2,7]},
+{t:'食谱收藏',n:41,e:['🍗','🍲','🥗','🍜'],o:[2,4,0,8,5,6]}];
+const updSum=()=>{el.sumP.textContent='已备 '+eq.size+'/8'};
+const syncCnt=()=>{document.getElementById('aN').textContent=BASE.length+(saved?1:0)};
+function albCard(k,title,n,emo,extra){
+  const off=k==='ai'?0:+k*2+3;
+  return `<button class="alc" data-k="${k}"><div class="alt">${title}</div><div class="acn">笔记 · ${n}${extra||''}</div><div class="ath">${emo.map((e,i)=>`<i style="background:${grad(i+off)}">${e}</i>`).join('')}</div></button>`;
 }
-function ringSources(on){$$('.card.src').forEach(c=>c.classList.toggle('ring',on))}
-function addBadges(animate){
-  $$('.card.src .cv').forEach((cv,i)=>{
-    if(cv.querySelector('.bdg'))return;
-    const b=document.createElement('span');b.className='bdg';b.textContent='✓';b.setAttribute('aria-label','已回顾');
-    if(animate)b.style.animationDelay=T(i*30)+'ms';else b.style.animation='none';
-    cv.appendChild(b);
-  });
+function renderAlbums(){
+  const h=[];
+  if(saved)h.push(albCard('ai','秋日露营',albumIds.length,albumIds.slice(0,4).map(j=>CAMP[j][2]),` · <em>已备 ${eq.size}/8</em>`));
+  BASE.forEach((b,i)=>h.push(albCard(String(i),b.t,b.n,b.e)));
+  el.albums.innerHTML=h.join('');
 }
-function showAlbum(instant){
-  el.album.hidden=false;
-  el.album.innerHTML=`<div class="alb" id="alb"><div class="cvr" style="background:${grad(1)}">⛺</div><div><b>秋日露营清单</b><small>8 项装备 · 3 个营地 · 2 条避坑 · 刚刚</small></div><span class="tg">专辑</span></div>`;
-  if(instant)el.album.style.transition='none';
-  requestAnimationFrame(()=>{el.album.classList.add('in');if(instant)requestAnimationFrame(()=>el.album.style.transition='')});
+function renderAlbumPage(){
+  const ai=curAlb==='ai',b=ai?null:BASE[+curAlb];
+  el.aTitle.textContent=ai?'秋日露营':b.t;
+  el.aCnt.textContent='笔记 · '+(ai?albumIds.length:b.n);
+  el.sumc.hidden=!ai;
+  if(ai)updSum();
+  el.afeed.innerHTML=colsHtml(ai?albumIds.map(j=>({n:CAMP[j]})):b.o.map(j=>({n:OTHER[j]})),true);
+  el.apb.scrollTop=0;
+}
+function openAlbum(k){
+  curAlb=k;renderAlbumPage();el.apage.classList.add('on');
+  if(k==='ai')setState('P');
+}
+function closeAlbum(){
+  el.apage.classList.remove('on');curAlb=null;
+  if(st==='P')setState('A0');
+  if(sub==='albums')renderAlbums();
 }
 function clearSaved(){
-  $$('.bdg').forEach(b=>b.remove());el.album.classList.remove('in');el.album.innerHTML='';
+  el.apage.classList.remove('on');curAlb=null;
+  saved=false;albumIds=[];removed.clear();syncCnt();
 }
+el.albums.addEventListener('click',e=>{const b=e.target.closest('.alc');if(b&&!sheetOpen)openAlbum(b.dataset.k)});
+el.abk.addEventListener('click',closeAlbum);
+el.sumc.addEventListener('click',()=>{if(!sheetOpen)openSheet(true)});
 function closeMenu(){el.menu.style.display='none';el.mcatch.style.display='none'}
 function openMenu(from){
-  const items=[['week','本周不再提醒'],['forever','不再推荐此类','dg']];
-  if(from==='sheet')items.push(['wrong','内容有误']);
+  const items=[['forever','不再推荐此类','dg']];
   el.menu.innerHTML=items.map(i=>`<button role="menuitem" data-a="${i[0]}" class="${i[2]||''}">${i[1]}</button>`).join('');
   const sr=el.screen.getBoundingClientRect(),r=(from==='sheet'?el.more:el.cap).getBoundingClientRect();
   let x=from==='sheet'?(r.right-sr.left)/scale-204:(r.left-sr.left)/scale+4;
@@ -437,14 +534,13 @@ function openMenu(from){
 el.menu.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;closeMenu();act(b.dataset.a)});
 el.mcatch.addEventListener('click',closeMenu);
 async function act(a){
-  if(a==='wrong'){hint('谢谢反馈，我们会去核对这条');return}
   await dismiss(a);
 }
 async function dismiss(kind){
   cool=true;forever=kind==='forever';setState('D3');
   if(sheetOpen)await closeSheet('d3');
   hideCap(false);
-  toast(forever?'好的，之后不再推荐这类':'好的，本周不再提醒这类','撤销',undo,4000);
+  toast('好的，之后不再推荐这类',[['撤销',undo]],4000);
 }
 function undo(){cool=false;forever=false;showCap(true)}
 let pressing=false,longFired=false,lp=0;
@@ -471,9 +567,8 @@ el.cap.addEventListener('click',e=>{if(e.detail===0&&canPress()){setState('B');a
 el.cap.addEventListener('contextmenu',e=>{e.preventDefault();if(capOn&&!sheetOpen&&!longFired)openMenu('cap')});
 el.cx.addEventListener('click',()=>openMenu('cap'));
 async function activate(){
-  touched=true;ringSources(true);
+  touched=true;
   await sleep(220);
-  setTimeout(()=>ringSources(false),T(700));
   await openSheet();
 }
 function fade(a,b){
@@ -485,48 +580,72 @@ function reveal(){
   if(S.rm)return;
   $$('#sbody .rv').forEach((n,i)=>n.animate([{opacity:0,transform:'translateY(12px)'},{opacity:1,transform:'none'}],{duration:T(240),delay:T(180+i*60),easing:'cubic-bezier(.2,.8,.2,1)',fill:'backwards'}));
 }
-async function openSheet(){
+const srcIdx=()=>fromAlbum?albumIds.slice():CAMP.map((_,j)=>j).filter(j=>!removed.has(j));
+const closeKind=()=>fromAlbum?'p':'d2';
+function updN(){
+  const n=srcIdx().length,low=!fromAlbum&&n<5;
+  el.srcN.textContent=n;el.go.disabled=low;
+  el.gcap.textContent=low?'至少 5 篇才能整理成专辑':n+' 篇将加入新专辑，原收藏不变';
+}
+function renderSv(){
+  el.svl.innerHTML=srcIdx().map(j=>`<div class="svr" data-j="${j}"><i class="svc" style="background:${grad(j)}">${CAMP[j][2]}</i><div class="svt"><b>${CAMP[j][0]}</b><small><i class="sva" style="background:${grad(j+3)}"></i>${CAMP[j][1]}</small></div>${fromAlbum?'':`<button class="rmv" data-rm="${j}">移出</button>`}</div>`).join('');
+}
+function openSv(){
+  renderSv();el.sbody.hidden=true;el.sf.hidden=true;el.sv.hidden=false;setState('C4');
+}
+function closeSv(){
+  el.sv.hidden=true;el.sbody.hidden=false;el.sf.hidden=fromAlbum;
+  setState(modState(p));
+}
+el.subL.addEventListener('click',()=>{if(sheetOpen&&el.sv.hidden)openSv()});
+el.svBack.addEventListener('click',closeSv);
+el.svl.addEventListener('click',e=>{
+  const rb=e.target.closest('.rmv');
+  if(rb){removed.add(+rb.dataset.rm);renderSv();updN();hint('已移出，不会放进新专辑');return}
+  if(e.target.closest('.svr'))hint('将跳转原笔记');
+});
+async function openSheet(fa){
   if(sheetOpen)return;
+  fromAlbum=fa===true;
   sheetOpen=true;prevFocus=document.activeElement;
+  if(!fromAlbum)removed.clear();
   el.sheet.style.transition='';el.sheet.style.opacity='';
   el.sheet.style.display='flex';el.scrim.classList.add('on');
-  resetExpand();el.sbody.scrollTop=0;
+  el.sv.hidden=true;el.sbody.hidden=false;el.sf.hidden=fromAlbum;el.more.hidden=fromAlbum;
+  el.sbody.style.paddingBottom=fromAlbum?'36px':'';
+  updN();resetExpand();el.sbody.scrollTop=0;
   setState('C1');reveal();
   if(S.rm){setP(C1);await fade(0,1)}else{setP(0);await spring(C1)}
   if(sheetOpen)el.shT.focus({preventScroll:true});
 }
-async function shrink(){
-  const sr=el.screen.getBoundingClientRect(),cr=el.cap.getBoundingClientRect();
-  const cx=(cr.left+cr.width/2-sr.left)/scale,cy=Math.max(70,Math.min(780,(cr.top+cr.height/2-sr.top)/scale));
-  if(S.rm){await fade(1,0);return}
-  el.sw.style.transformOrigin=`${cx}px ${cy}px`;
-  el.scrim.style.transition=`opacity ${T(360)}ms ease-in-out`;el.scrim.style.opacity='0';
-  const a=el.sw.animate([{transform:'scale(1)',opacity:1},{transform:'scale(.1)',opacity:0}],{duration:T(360),easing:'cubic-bezier(.4,0,.2,1)',fill:'forwards'});
-  await a.finished.catch(()=>{});
-  a.cancel();el.scrim.style.transition='';
-}
 async function closeSheet(mode){
   if(!sheetOpen)return;
   sheetOpen=false;closeMenu();cancelAnimationFrame(raf);
+  if(mode==='d1')setState('D1');
   if(mode==='d2')setState('D2');
-  if(mode==='d1'){el.scroll.scrollTop=0;setState('D1');await shrink()}
-  else if(S.rm)await fade(1,0);
+  if(mode==='p')setState('P');
+  if(S.rm)await fade(1,0);
   else await tween(0,Math.max(160,280*p/C1),t=>t*t);
   el.sheet.style.display='none';el.scrim.classList.remove('on');setP(0);
   if(mode!=='d3'&&prevFocus&&prevFocus.focus)prevFocus.focus({preventScroll:true});
   if(mode==='d2'||mode==='d3'){cool=true;el.cap.classList.remove('breathe')}
 }
 async function save(){
-  if(!sheetOpen)return;
-  saved=true;cool=true;touched=true;haptic();
+  if(!sheetOpen||fromAlbum||el.go.disabled)return;
+  albumIds=srcIdx();saved=true;touched=true;haptic();
+  syncCnt();hideCap(false);
   await closeSheet('d1');
-  showChip(false);addBadges(true);showAlbum(false);
-  toast('已存入「秋日露营清单」','去看看',peek,3000);
+  toast('已整理成「秋日露营」专辑',[['去看看',goAlbum],['撤销',undoSave]],4000);
 }
-function peek(){
-  el.scroll.scrollTo({top:0,behavior:S.rm?'auto':'smooth'});
-  const a=document.getElementById('alb');
-  if(a){a.classList.add('flash');setTimeout(()=>a.classList.remove('flash'),T(900))}
+function goAlbum(){
+  if(tab!=='fav'||!saved)return;
+  if(sub!=='albums'){leaveNotesView();sub='albums';applySub()}
+  openAlbum('ai');
+}
+function undoSave(){
+  clearSaved();closeAlbum();
+  if(sub==='albums')setState('A0');
+  else if(tab==='fav')showCap(true);
 }
 let drag=null,pre=null,noClick=0;
 function dragStart(e,host){
@@ -550,13 +669,13 @@ function dragEnd(){
   const from=drag.p0>=C2-2?'C2':'C1',thr=.2*(C2-C1);
   drag=null;
   if(p<C1){
-    if(C1-p>.3*C1||vel<-800)return closeSheet('d2');
+    if(C1-p>.3*C1||vel<-800)return closeSheet(closeKind());
     return snap(C1,vel);
   }
   if(from==='C1')return snap((p-C1>thr||vel>500)?C2:C1,vel);
   return snap((C2-p>thr||vel<-500)?C1:C2,vel);
 }
-el.shHead.addEventListener('pointerdown',e=>{if(e.target.closest('.ib')||e.button>0)return;dragStart(e,el.shHead)});
+el.shHead.addEventListener('pointerdown',e=>{if(e.target.closest('.ib,.subl')||e.button>0)return;dragStart(e,el.shHead)});
 el.shHead.addEventListener('pointermove',dragMove);
 el.shHead.addEventListener('pointerup',dragEnd);
 el.shHead.addEventListener('pointercancel',dragEnd);
@@ -571,26 +690,27 @@ el.sbody.addEventListener('pointermove',e=>{
 });
 el.sbody.addEventListener('pointerup',()=>{pre=null;if(drag){noClick=Date.now()+60;dragEnd()}});
 el.sbody.addEventListener('click',e=>{if(Date.now()<noClick){e.stopPropagation();e.preventDefault()}},true);
-el.scrim.addEventListener('click',()=>closeSheet('d2'));
-el.close.addEventListener('click',()=>closeSheet('d2'));
+el.scrim.addEventListener('click',()=>closeSheet(closeKind()));
+el.close.addEventListener('click',()=>closeSheet(closeKind()));
 el.more.addEventListener('click',()=>openMenu('sheet'));
 el.go.addEventListener('click',save);
 document.addEventListener('keydown',e=>{
   if(e.key!=='Escape')return;
   if(playing){reset();return}
-  if(el.menu.style.display==='block')closeMenu();else if(sheetOpen)closeSheet('d2');
+  if(el.menu.style.display==='block')closeMenu();
+  else if(sheetOpen){if(!el.sv.hidden)closeSv();else closeSheet(closeKind())}
+  else if(curAlb!==null)closeAlbum();
 });
 const EQ=[['天幕 / 蛋卷桌',7],['露营灯（推荐高色温）',5],['防风气罐',4],['防潮垫',3],['折叠椅',3],['保暖睡袋',2],['炉具套装',2],['垃圾袋',1]];
 const CAMPS=[['松涛溪谷营地',32,5,'溪边草坪平整，夜里安静，适合新手。'],['云栖草甸营地',41,4,'草甸视野开阔，秋天早晚温差大。'],['半山观星台',47,3,'夜景好，但车位少，建议早到。']];
 const PITS=[['hi','夜间温差超 10℃',4,'“山上夜里只有 6℃，睡袋一定要选保暖款。”'],['md','某营地洗手间少',3,'“旺季洗手间要排队，建议自带应急用品。”']];
 const ids=(n,s)=>Array.from({length:n},(_,i)=>(s+i*5)%12);
-const mini=(a,n)=>`<div class="mini">${a.slice(0,6).map(j=>`<i data-j="${j}" style="background:${grad(j)}">${CAMP[j][2]}</i>`).join('')}<span>来自 ${n} 篇</span></div>`;
-const row=(e,i)=>`<button class="eqr" data-i="${i}" role="checkbox" aria-checked="false"><span class="bx">✓</span><span class="eqn">${e[0]}</span><span class="chp" data-c="${i}">${e[1]} 篇提到</span></button><div class="fold" data-f="${i}">${mini(ids(e[1],i*3),e[1])}</div>`;
+const mini=(a,n)=>`<div class="mini">${a.slice(0,6).map(j=>`<i data-j="${j}" style="background:${grad(j)}">${CAMP[j][2]}</i>`).join('')}<span>来自 ${n} 篇</span><button class="wr" data-wrong>有误？</button></div>`;
+const row=(e,i)=>`<button class="eqr" data-i="${i}" role="checkbox" aria-checked="false"><span class="bx">${ic('check')}</span><span class="eqn">${e[0]}</span><span class="chp" data-c="${i}">${e[1]} 篇提到</span></button><div class="fold" data-f="${i}">${mini(ids(e[1],i*3),e[1])}</div>`;
 const sev=k=>`<b class="sev ${k}">${k==='hi'?'高':'中'}</b>`;
-el.mEq.innerHTML=`<div class="mh">📋 必备装备清单（已去重）<span class="pg" id="pg">已备 0/8</span></div><p class="tip">共 8 项，其中 3 项被 4 篇以上笔记共同推荐</p>${EQ.slice(0,3).map(row).join('')}<div class="fold" id="eqMore">${EQ.slice(3).map((e,i)=>row(e,i+3)).join('')}</div><button class="more" id="eqBtn" aria-expanded="false">展开全部 8 项 ⌄</button>`;
-el.mRt.innerHTML=`<div class="mh">🗺️ 推荐营地路线</div><div class="sum"><p class="sub2">周边 50km 内</p><div class="gobtn">3 个高分营地 ›</div></div><div class="det">${CAMPS.map((c,i)=>`<div class="cr"><button class="crh" aria-expanded="${i===0}">${c[0]}<small>${c[1]}km · 来自 ${c[2]} 篇</small></button><div class="fold${i===0?' open':''}"><div class="crb">${c[3]}${mini(ids(c[2],i*4+1),c[2])}<button class="lnk" data-map>在地图中查看 ›</button></div></div></div>`).join('')}</div>`;
-el.mPit.innerHTML=`<div class="mh">⚠️ 避坑提醒</div><div class="sum"><p class="sub2">过往踩坑总结</p>${PITS.map(q=>`<div class="pi">${sev(q[0])}${q[1]}</div>`).join('')}</div><div class="det">${PITS.map((q,i)=>`<div class="cr"><div class="crh">${sev(q[0])}${q[1]}<small>来自 ${q[2]} 篇</small></div><div class="crb">${q[3]}${mini(ids(q[2],i*5+2),q[2])}<button class="lnk" data-orig>查看原文 ›</button></div></div>`).join('')}</div>`;
-el.srcs.innerHTML=`<div class="srch">来源 12 篇</div><div class="srcb">${CAMP.map((c,j)=>`<div class="sc" data-j="${j}" style="background:${grad(j)}" role="button" aria-label="${c[0]}">${c[2]}<b style="background:${grad(j+4)}"></b></div>`).join('')}</div>`;
+el.mEq.innerHTML=`<div class="mh">${ic('list')}必备装备清单<span class="pg" id="pg">已备 0/8</span></div><p class="tip">共 8 项，其中 3 项被 4 篇以上笔记共同推荐</p>${EQ.slice(0,3).map(row).join('')}<div class="fold" id="eqMore">${EQ.slice(3).map((e,i)=>row(e,i+3)).join('')}</div><button class="more" id="eqBtn" aria-expanded="false">${EXP}</button>`;
+el.mRt.innerHTML=`<div class="mh">${ic('map')}推荐营地路线</div><div class="sum"><p class="sub2">周边 50km 内</p><div class="gobtn">3 个高分营地${ic('chev-r')}</div></div><div class="det">${CAMPS.map((c,i)=>`<div class="cr"><button class="crh" aria-expanded="${i===0}">${c[0]}<small>${c[1]}km · 来自 ${c[2]} 篇</small></button><div class="fold${i===0?' open':''}"><div class="crb">${c[3]}${mini(ids(c[2],i*4+1),c[2])}<button class="lnk" data-map>在地图中查看${ic('chev-r')}</button></div></div></div>`).join('')}</div>`;
+el.mPit.innerHTML=`<div class="mh">${ic('warn')}笔记里提到的坑</div><div class="sum"><p class="sub2">按提及篇数排序</p>${PITS.map(q=>`<div class="pi">${sev(q[0])}${q[1]}</div>`).join('')}</div><div class="det">${PITS.map((q,i)=>`<div class="cr"><div class="crh">${sev(q[0])}${q[1]}<small>来自 ${q[2]} 篇</small></div><div class="crb">${q[3]}${mini(ids(q[2],i*5+2),q[2])}<button class="lnk" data-orig>查看原文${ic('chev-r')}</button></div></div>`).join('')}</div>`;
 const eq=new Set();let duoOpen=null;
 const $id=id=>document.getElementById(id);
 const anyOpen=()=>!!(duoOpen||$$('#mEq .fold.open').length);
@@ -600,7 +720,7 @@ function setDuo(w,silent){
   el.mRt.classList.toggle('open',w==='rt');el.mPit.classList.toggle('open',w==='pit');
   if(w&&!silent&&!S.rm)(w==='rt'?el.mRt:el.mPit).querySelector('.det').animate([{opacity:0,transform:'translateY(6px)'},{opacity:1,transform:'none'}],{duration:T(220),easing:'ease-out'});
 }
-function resetExpand(){$$('#mEq .fold').forEach(f=>f.classList.remove('open'));$id('eqBtn').textContent='展开全部 8 项 ⌄';setDuo(null,true)}
+function resetExpand(){$$('#mEq .fold').forEach(f=>f.classList.remove('open'));$id('eqBtn').innerHTML=EXP;setDuo(null,true)}
 function afterChange(node){
   if(anyOpen()&&p<C2-2){
     setState('C3');spring(C2);
@@ -608,17 +728,20 @@ function afterChange(node){
   }else setState(modState(p));
 }
 const toOrig=()=>hint('将跳转原笔记（示例中不展开）');
+const wrong=()=>hint('谢谢反馈，我们会去核对这条');
 el.mEq.addEventListener('click',e=>{
+  if(e.target.closest('.wr')){wrong();return}
   const chp=e.target.closest('.chp');
   if(chp){const f=el.mEq.querySelector(`.fold[data-f="${chp.dataset.c}"]`);f.classList.toggle('open');afterChange(f);return}
   if(e.target.closest('.mini i')){toOrig();return}
   const btn=e.target.closest('#eqBtn');
-  if(btn){const m=$id('eqMore'),o=m.classList.toggle('open');btn.textContent=o?'收起 ⌃':'展开全部 8 项 ⌄';btn.setAttribute('aria-expanded',o);afterChange(o?m:null);return}
+  if(btn){const m=$id('eqMore'),o=m.classList.toggle('open');btn.innerHTML=o?COL:EXP;btn.setAttribute('aria-expanded',o);afterChange(o?m:null);return}
   const r=e.target.closest('.eqr');
-  if(r){const i=+r.dataset.i,on=!eq.has(i);if(on)eq.add(i);else eq.delete(i);r.classList.toggle('on',on);r.setAttribute('aria-checked',on);$id('pg').textContent=`已备 ${eq.size}/8`}
+  if(r){const i=+r.dataset.i,on=!eq.has(i);if(on)eq.add(i);else eq.delete(i);r.classList.toggle('on',on);r.setAttribute('aria-checked',on);$id('pg').textContent=`已备 ${eq.size}/8`;updSum()}
 });
 function duoClick(w,e){
   const node=w==='rt'?el.mRt:el.mPit;
+  if(e.target.closest('.wr')){wrong();return}
   if(e.target.closest('.mini i')||e.target.closest('[data-orig]')){toOrig();return}
   if(e.target.closest('[data-map]')){hint('将打开地图（示例中不展开）');return}
   const crh=e.target.closest('button.crh');
@@ -629,19 +752,29 @@ function duoClick(w,e){
 el.mRt.addEventListener('click',e=>duoClick('rt',e));
 el.mPit.addEventListener('click',e=>duoClick('pit',e));
 ['mRt','mPit'].forEach(k=>el[k].addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target===el[k]){e.preventDefault();el[k].click()}}));
-el.srcs.addEventListener('click',e=>{if(e.target.closest('.sc'))toOrig()});
-function enterFav(){
-  const my=++token;
-  renderFeed('fav');el.scroll.scrollTop=0;el.album.hidden=false;
-  if(saved){showChip(true);el.album.classList.remove('in');showAlbum(true);setState('D1');return}
-  hideCap(true);setState('A0');
-  if(cool||forever)return;
-  setTimeout(()=>{if(my===token&&tab==='fav'&&!sheetOpen)showCap()},T(600));
-}
-function leaveFav(){
+function leaveNotesView(){
   if(capOn&&!touched&&st==='A1')ignores++;
-  token++;hideCap(true);el.album.hidden=true;
+  token++;hideCap(true);
 }
+function applySub(){
+  const my=++token;
+  $$('.st').forEach(x=>{const on=x.dataset.s===sub;x.classList.toggle('on',on);x.setAttribute('aria-selected',on)});
+  el.scroll.scrollTop=0;hideCap(true);setState('A0');
+  if(sub==='albums'){el.feed.hidden=true;el.albums.hidden=false;renderAlbums();return}
+  el.albums.hidden=true;el.feed.hidden=false;renderFeed('fav');
+  if(saved||cool||forever)return;
+  setTimeout(()=>{if(my===token&&tab==='fav'&&sub==='notes'&&!sheetOpen)showCap()},T(600));
+}
+function enterFav(){el.subtabs.hidden=false;applySub()}
+function leaveFav(){
+  leaveNotesView();closeAlbum();
+  el.subtabs.hidden=true;el.albums.hidden=true;el.feed.hidden=false;
+}
+$$('.st').forEach(b=>b.addEventListener('click',()=>{
+  const s=b.dataset.s;
+  if(s===sub||sheetOpen||tab!=='fav')return;
+  leaveNotesView();closeAlbum();sub=s;applySub();
+}));
 $$('.tab').forEach(b=>b.addEventListener('click',()=>{
   const t=b.dataset.t;
   if(t===tab||sheetOpen)return;
@@ -654,12 +787,12 @@ function reset(keep){
   if(!keep)endAuto();
   token++;closeMenu();hideToast();clearTimeout(ht);el.hint.classList.remove('on');cancelAnimationFrame(raf);
   if(sheetOpen){sheetOpen=false;el.sheet.style.display='none';el.scrim.classList.remove('on');setP(0)}
-  saved=false;cool=false;forever=false;ignores=0;touched=false;pressing=false;
+  cool=false;forever=false;ignores=0;touched=false;pressing=false;
   eq.clear();$$('#mEq .eqr').forEach(r=>{r.classList.remove('on');r.setAttribute('aria-checked','false')});
   $id('pg').textContent='已备 0/8';
-  resetExpand();clearSaved();ringSources(false);
+  resetExpand();clearSaved();
   if(!keep){visited=new Set();trail=[]}
-  st='';tab='fav';
+  st='';tab='fav';sub='notes';
   $$('.tab').forEach(x=>x.classList.toggle('on',x.dataset.t==='fav'));
   enterFav();
 }
@@ -676,7 +809,7 @@ function endAuto(){
 const fire=(n,type,x,y)=>n.dispatchEvent(new PointerEvent(type,{bubbles:true,cancelable:true,pointerId:77,pointerType:'mouse',button:0,buttons:type==='pointerup'?0:1,clientX:x,clientY:y}));
 const mid=n=>{const r=n.getBoundingClientRect();return[r.left+r.width/2,r.top+r.height/2]};
 function local(x,y){const s=el.screen.getBoundingClientRect();return[(x-s.left)/scale,(y-s.top)/scale]}
-/* 自动演示：用合成的指针事件驱动真实交互，配虚拟手指和旁白，只走核心链路 A→B→C→D1 */
+/* 自动演示：用合成的指针事件驱动真实交互，配虚拟手指和旁白，走核心链路 A→B→C→D1→P */
 async function auto(){
   if(playing){reset();return}
   reset();
@@ -702,22 +835,30 @@ async function auto(){
     fire(el.cap,'pointerup',x,y);el.finger.classList.remove('down');
   };
   try{
-    nar('Step 1 · 进入收藏 Tab，灵感胶囊自己出现。不弹窗，不推送，不打红点');
+    nar('Step 1 · 进入收藏页的「笔记」子 tab，灵感胶囊自己出现。不弹窗，不推送，不打红点');
     await until(()=>capOn&&st==='A1');await w(2000);
-    nar('Step 2 · 轻点胶囊：按下有缩放和触感，相关笔记亮起，看板弹起');
+    nar('Step 2 · 轻点胶囊：按下有缩放和触感，看板弹起');
     await press(300);await w(1900);
-    nar('AI 把 12 篇收藏整理成装备、路线、避坑三块，不用再翻列表');
+    nar('AI 把 12 篇收藏整理成装备、路线、坑三块，不用再翻列表');
     await w(2000);
-    nar('装备已去重，点一下就能勾掉，进度实时更新');
+    nar('同义装备已合并，点一下勾掉已有的，进度实时更新');
     await tap(el.mEq.querySelector('.eqr[data-i="0"]'));
     await tap(el.mEq.querySelector('.eqr[data-i="1"]'));
     await w(300);
     nar('每条结论都能追到来源：点「N 篇提到」，看是哪几篇笔记');
     await tap(el.mEq.querySelector('.chp[data-c="2"]'));await w(1300);
-    nar('路线和避坑就地展开，看板自动升高，不用跳页');
+    nar('路线和坑就地展开，看板自动升高，不用跳页');
     await tap(el.mRt.querySelector('.mh'));await w(1900);
-    nar('Step 3 · 存为清单：看板缩回胶囊，来源笔记挂「已回顾」，清单进入收藏');
-    await tap(el.go);el.finger.style.opacity=0;await w(3200);
+    nar('点副标题可以看是哪 12 篇。分错的笔记在这里「移出」，这次不放进专辑');
+    await tap(el.subL);await w(2600);
+    await tap(el.svBack);await w(800);
+    nar('Step 3 · 整理成专辑：看板和胶囊一起收起，笔记留在原处，「专辑」数字加 1');
+    await tap(el.go);await w(1400);
+    nar('Step 4 · 点「去看看」：专辑顶部有一张摘要卡，勾选的进度还在');
+    await tap(el.toastB);await w(2400);
+    nar('点摘要卡回到同一张看板，已备数量与刚才一致');
+    await tap(el.sumc);await w(2400);
+    await tap(el.close);el.finger.style.opacity=0;await w(1800);
     nar('看完即走。下滑关闭、长按选「不再推荐」也都没有确认弹窗，接下来轮到你了');
     await w(2600);
     reset();hint('演示结束，已回到初始状态，现在可以自己试试');
