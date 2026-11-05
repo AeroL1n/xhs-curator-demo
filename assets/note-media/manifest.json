@@ -1,0 +1,1568 @@
+{
+  "0": {
+    "images": [
+      "assets/note-media/0-cover.webp",
+      "assets/note-media/0-detail.webp"
+    ],
+    "photo": "素材/露营与风景照片/02_红色周转箱与咖啡.jpg",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/camp-valley.webp",
+    "cover_source": {
+      "file": "素材/露营与风景照片/02_红色周转箱与咖啡.jpg",
+      "source_page": "https://www.pinterest.com/pin/39688040461823518/",
+      "provenance": "user-supplied-reference",
+      "usage": "local-demo-reference",
+      "license": "not-verified",
+      "updated_at": "2026-11-05",
+      "processing": "Proportion preserved; downscaled only; converted to WebP; no added overlay."
+    },
+    "copy": {
+      "title": "露营轻装出发，红色周转箱一拎就走",
+      "lead": "红色周转箱，装下下午茶",
+      "paragraphs": [
+        "周末想去草地上坐坐，我把咖啡、杯子和小物件装进红色周转箱，再带一只托盘。到了营地，先选平整干燥的地方，再把东西拿出来。",
+        "托盘放在周转箱上，拿咖啡时顺手，也少了来回翻找。需要稳放东西时，我还是会另带小桌。",
+        "出发前把折叠椅和垃圾袋一起核对，用完的杯子集中带走。想在营地久坐，也先问清用水和洗手间。"
+      ],
+      "points": [
+        "咖啡和小物集中装进周转箱",
+        "托盘方便临时放东西",
+        "核对折叠椅和垃圾袋再出发"
+      ],
+      "tags": [
+        "轻装露营",
+        "周转箱收纳"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "1": {
+    "images": [
+      "assets/note-media/1-cover.webp",
+      "assets/note-media/1-detail.webp"
+    ],
+    "photo": "素材/露营与风景照片/09_天幕下的红色露营椅与木架.png",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/camp-lake.webp",
+    "cover_source": {
+      "file": "素材/露营与风景照片/09_天幕下的红色露营椅与木架.png",
+      "provenance": "user-uploaded-reference",
+      "original_attachment": "codex-clipboard-844aaee0-3a07-4dfe-95d3-d14c4751e723.png",
+      "usage": "local-demo-reference",
+      "license": "not-verified",
+      "updated_at": "2026-11-05",
+      "processing": "Original 364x482 composition preserved; converted to WebP without upscaling or added title overlay."
+    },
+    "copy": {
+      "title": "天幕下摆好桌椅，周末慢慢坐",
+      "lead": "红椅和木架，摆进天幕下",
+      "paragraphs": [
+        "天幕下摆一把红色折叠椅，旁边放小木架。先选平整的草地，再看树荫和天幕能遮住哪里，坐下来试试。",
+        "搭天幕时先固定一侧，再撑主杆，逐步调整拉绳。木架放在椅子旁，水杯和小物不用都堆在地上，进出也方便。",
+        "搭好后沿四周走一圈，看看地钉和拉绳。椅子前留点空地，坐着看书或吃点水果，收拾时把潮湿布面单独装好。"
+      ],
+      "points": [
+        "天幕选平整草地，逐步撑杆",
+        "红色折叠椅旁放好小木架",
+        "检查地钉，进出留出空间"
+      ],
+      "tags": [
+        "天幕布置",
+        "露营桌椅"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "2": {
+    "images": [
+      "assets/note-media/2-cover.webp",
+      "assets/note-media/2-detail.webp"
+    ],
+    "photo": "assets/photos/camp-lantern.webp",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/camp-lantern.webp",
+    "cover_source": {
+      "file": "assets/photos/camp-lantern.webp",
+      "provenance": "existing-project-original",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio preserved; downscaled only within 750x1000; no added gradient, title or author overlay.",
+      "attribution_reference": "assets/photos/README.md"
+    },
+    "copy": {
+      "title": "露营灯怎么带？从提手到充电先看清",
+      "lead": "一盏手提灯，桌面帐内都好拿",
+      "paragraphs": [
+        "黑色手提露营灯放在窗边，透明灯罩和提手看得很清楚。我会先试试提拿和摆放，再想到了营地放在桌面还是帐内。",
+        "照明分开看：桌面要看清东西，帐内则不想太刺眼。出发前用常用档位亮一会儿，看看是否舒服。",
+        "再核对充电线、供电方式和备用电量。照片只能看外形，亮度与续航仍要实际测试，带去户外前先把电充好。"
+      ],
+      "points": [
+        "提手与底座先试拿试放",
+        "桌面和帐内照明分开考虑",
+        "核对充电方式和备用电量"
+      ],
+      "tags": [
+        "露营灯",
+        "装备准备"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "3": {
+    "images": [
+      "assets/note-media/3-cover.webp",
+      "assets/note-media/3-detail.webp"
+    ],
+    "photo": "assets/photos/camp-table.webp",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/camp-table.webp",
+    "cover_source": {
+      "file": "assets/photos/camp-table.webp",
+      "provenance": "existing-project-original",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio preserved; downscaled only within 750x1000; no added gradient, title or author overlay.",
+      "attribution_reference": "assets/photos/README.md"
+    },
+    "copy": {
+      "title": "营地桌椅怎么选，先坐下试试",
+      "lead": "营地有木桌，先看坐着顺不顺手",
+      "paragraphs": [
+        "空地上已有一张木质野餐桌，旁边是树和活动空间。先看看桌面够不够用，再坐下试试高度，不急着把自带装备全部摆开。",
+        "如果另带蛋卷桌或折叠桌，我会对照展开方式，核对尺寸、重量与收纳体积。蛋卷桌要组装支架，折叠桌看具体折叠结构。",
+        "折叠椅也一起试坐，桌椅之间留出进出的地方。按同行人数和车内空间准备，小桌不必一味追求大。"
+      ],
+      "points": [
+        "先试坐营地现有木桌",
+        "便携桌核对尺寸、重量与收纳",
+        "折叠椅搭配桌面高度一起看"
+      ],
+      "tags": [
+        "营地桌椅",
+        "蛋卷桌",
+        "折叠桌"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "4": {
+    "images": [
+      "assets/note-media/4-cover.webp",
+      "assets/note-media/4-detail.webp"
+    ],
+    "photo": "素材/露营与风景照片/08_湖畔休憩与树林风景.jpg",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/forest-trail.webp",
+    "cover_source": {
+      "file": "素材/露营与风景照片/08_湖畔休憩与树林风景.jpg",
+      "source_page": "https://www.pinterest.com/pin/176836722865456181/",
+      "provenance": "user-supplied-reference",
+      "usage": "local-demo-reference",
+      "license": "not-verified",
+      "updated_at": "2026-11-05",
+      "processing": "Proportion preserved; downscaled only; converted to WebP; no added overlay."
+    },
+    "copy": {
+      "title": "湖畔树林坐一下午，周末就来这里",
+      "lead": "湖畔树林，坐下来就很好",
+      "paragraphs": [
+        "这次挑了湖边一块有树林的空地，两把折叠椅面对水面，中间放个小箱子。坐下来以后，只想慢慢喝点东西、看看风景。",
+        "湖畔的日光很舒服，我会先看地面是否平稳、椅子能不能放牢。树荫会移动，换位置时也别靠水太近。",
+        "这篇只记录湖边休息的一种布置，不代表固定营地信息。出发前仍要核对场地开放、预约和天气，带走随身垃圾。"
+      ],
+      "points": [
+        "湖边休憩：先看地面",
+        "折叠椅放稳，远离水边",
+        "出发前核对开放、预约与天气"
+      ],
+      "tags": [
+        "湖畔露营",
+        "营地参考"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "5": {
+    "images": [
+      "assets/note-media/5-cover.webp",
+      "assets/note-media/5-detail.webp"
+    ],
+    "photo": "素材/露营与风景照片/03_河边手冲咖啡.jpg",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/camp-stove.webp",
+    "cover_source": {
+      "file": "素材/露营与风景照片/03_河边手冲咖啡.jpg",
+      "source_page": "https://www.pinterest.com/pin/1100145015258787659/",
+      "provenance": "user-supplied-reference",
+      "usage": "local-demo-reference",
+      "license": "not-verified",
+      "updated_at": "2026-11-05",
+      "processing": "Proportion preserved; downscaled only; converted to WebP; no added overlay."
+    },
+    "copy": {
+      "title": "河边手冲咖啡，露营慢慢喝一杯",
+      "lead": "河边手冲，慢慢喝一杯",
+      "paragraphs": [
+        "在河边摆好小桌，磨豆、架好滤杯，再慢慢注水。水壶和杯子都放在伸手可及的位置，少一点忙乱。",
+        "我会先检查炉具和气罐是否适配，再按说明烧水。热水壶离桌边远一点，操作的位置也留出空间，别一边拍照一边走神。",
+        "手冲只是这次的露营小习惯，不必为拍照买齐器具。出发前问清营地用火规定，咖啡渣装进垃圾袋带走。"
+      ],
+      "points": [
+        "先摆稳小桌和手冲器具",
+        "气罐与炉具按说明适配",
+        "热水远离桌边，垃圾带走"
+      ],
+      "tags": [
+        "露营咖啡",
+        "手冲日常"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "6": {
+    "images": [
+      "assets/note-media/6-cover.webp",
+      "assets/note-media/6-detail.webp"
+    ],
+    "photo": "素材/露营与风景照片/04_帐篷里看书.jpg",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/camp-valley.webp",
+    "cover_source": {
+      "file": "素材/露营与风景照片/04_帐篷里看书.jpg",
+      "source_page": "https://www.pinterest.com/pin/744642119686590075/",
+      "provenance": "user-supplied-reference",
+      "usage": "local-demo-reference",
+      "license": "not-verified",
+      "updated_at": "2026-11-05",
+      "processing": "Proportion preserved; downscaled only; converted to WebP; no added overlay."
+    },
+    "copy": {
+      "title": "帐篷里看书，睡眠区这样布置",
+      "lead": "帐篷里，留一角看书",
+      "paragraphs": [
+        "把睡袋、防潮垫和枕头放好，我最喜欢躺进帐篷里看一会儿书。拉开门窗，光从侧面照进来，不赶着做下一件事。",
+        "顶上挂一盏小灯，天暗了也方便翻书。躺下以前先理平身下的垫子，再把常用的小物放在手边。",
+        "白天躺着舒服，不等于夜里也够暖。出发前我会查最低温，再核对睡袋和防潮垫的适用条件，把干燥保暖层单独放好。"
+      ],
+      "points": [
+        "睡袋与防潮垫先铺好",
+        "挂灯方便天暗后看书",
+        "过夜前再查最低气温"
+      ],
+      "tags": [
+        "帐篷阅读",
+        "露营睡眠区"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "7": {
+    "images": [
+      "assets/note-media/7-cover.webp",
+      "assets/note-media/7-detail.webp"
+    ],
+    "photo": "素材/露营与风景照片/10_草地野餐毯与藤编篮.png",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/forest-light.webp",
+    "cover_source": {
+      "file": "素材/露营与风景照片/10_草地野餐毯与藤编篮.png",
+      "provenance": "user-uploaded-reference",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio preserved; downscaled only within 750x1000; no added gradient, title or author overlay.",
+      "attribution_reference": "素材/露营与风景照片/来源清单.json"
+    },
+    "copy": {
+      "title": "草地野餐出发前，这几件先问",
+      "lead": "野餐篮放好，也别忘了问用水",
+      "paragraphs": [
+        "白色野餐毯铺在草地上，藤编篮里放好面包和小物，相机也带着。先找平整干燥的位置，把食物和随身东西分开放好。",
+        "去松涛溪谷这类营地前，我会问洗手间在哪里、什么时间开放，以及能不能用水。同行人多，提前问清更好安排。",
+        "篮子和包装集中收好，不让东西铺满周围。舒服的野餐角落，也要有方便的卫生设施，出发前再核对当日情况。"
+      ],
+      "points": [
+        "野餐毯选平整干燥的位置",
+        "提前问洗手间与用水情况",
+        "篮子和包装收好，留出空地"
+      ],
+      "tags": [
+        "草地野餐",
+        "营地准备"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "8": {
+    "images": [
+      "assets/note-media/8-cover.webp",
+      "assets/note-media/8-detail.webp"
+    ],
+    "photo": "素材/Pinterest生活感照片/露营_帐篷前的休息时间.jpg",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "素材/露营与风景照片/06_营地合照与手绘描边.jpg",
+    "cover_source": {
+      "file": "素材/Pinterest生活感照片/露营_帐篷前的休息时间.jpg",
+      "source_page": "https://www.pinterest.com/pin/658932989245342153/",
+      "image_url": "https://i.pinimg.com/originals/d3/fb/62/d3fb627da382e437db470cd2e937414a.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio retained; downscaled only within 750x1000; no added text or watermark removal.",
+      "visible_watermark_review": "No visible platform/account watermark found during visual and OCR review."
+    },
+    "copy": {
+      "title": "帐篷前坐一会，周末慢下来",
+      "lead": "帐篷搭好，留个休息角落",
+      "paragraphs": [
+        "米色帐篷搭在草地上，旁边摆好露营桌、椅子和水桶。坐下来吃点东西，树林挡住一部分阳光，周末不用排太满。",
+        "桌面只放正在用的杯子和食物，装备集中收在一旁。帐篷入口空出来，进出方便。",
+        "准备蛋卷桌或天幕前先核对营位大小，垃圾袋也放好。吃完顺手收拾，拍照时就有清爽背景。"
+      ],
+      "points": [
+        "帐篷入口留出进出位置",
+        "桌面只摆正在用的物品",
+        "核对营位与垃圾袋再出发"
+      ],
+      "tags": [
+        "草地露营",
+        "营地日常"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "9": {
+    "images": [
+      "assets/note-media/9-cover.webp",
+      "assets/note-media/9-detail.webp"
+    ],
+    "photo": "素材/露营与风景照片/01_草地咖啡与纸袋面包.jpg",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/camp-stove.webp",
+    "cover_source": {
+      "file": "素材/露营与风景照片/01_草地咖啡与纸袋面包.jpg",
+      "source_page": "https://www.pinterest.com/pin/835417799665213305/",
+      "provenance": "user-supplied-reference",
+      "usage": "local-demo-reference",
+      "license": "not-verified",
+      "updated_at": "2026-11-05",
+      "processing": "Proportion preserved; downscaled only; converted to WebP; no added overlay."
+    },
+    "copy": {
+      "title": "草地咖啡配面包，露营下午茶",
+      "lead": "咖啡面包，轻松开餐",
+      "paragraphs": [
+        "这次没打算在户外开火，提前买好面包和冰咖啡，带到草地上就是一份下午茶。纸袋打开，大家分着吃。",
+        "挑一块平整干燥的位置，面包留在纸袋里，杯子放稳再拍照。吃的喝的提前分好，比到了现场再忙着准备轻松很多。",
+        "不做饭也有露营的仪式感。吃完把纸袋、杯子和吸管装进垃圾袋带走，别让碎屑和包装留在草地。"
+      ],
+      "points": [
+        "面包饮品提前备好",
+        "杯子放稳再拍照片",
+        "包装和碎屑收进垃圾袋带走"
+      ],
+      "tags": [
+        "露营下午茶",
+        "免开火野餐"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "10": {
+    "images": [
+      "assets/note-media/10-cover.webp",
+      "assets/note-media/10-detail.webp"
+    ],
+    "photo": "素材/露营与风景照片/05_帐篷内望向户外.jpg",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/camp-lake.webp",
+    "cover_source": {
+      "file": "素材/露营与风景照片/05_帐篷内望向户外.jpg",
+      "source_page": "https://www.pinterest.com/pin/994662267721785160/",
+      "provenance": "user-supplied-reference",
+      "usage": "local-demo-reference",
+      "license": "not-verified",
+      "updated_at": "2026-11-05",
+      "processing": "Proportion preserved; downscaled only; converted to WebP; no added overlay."
+    },
+    "copy": {
+      "title": "从帐篷里望出去，周末慢下来",
+      "lead": "拉开帐门，让风景进来",
+      "paragraphs": [
+        "橙色帐篷门框住一片草地，铺好睡袋，就想坐着发一会儿呆。远处有人晒太阳，手边留点零食。",
+        "先把防潮垫和睡袋理平，常用物品放在门边好拿的位置。门口留出通道，进出不用跨过满地东西。",
+        "喜欢不用排满行程的周末，但白天晒着舒服，晚上仍要另做准备。出发前查最低温，干燥保暖层单独装袋，别只照着照片带东西。"
+      ],
+      "points": [
+        "防潮垫和睡袋先铺平",
+        "帐篷门口留出通道",
+        "按夜间气温另备保暖衣物"
+      ],
+      "tags": [
+        "帐篷视角",
+        "露营慢生活"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "11": {
+    "images": [
+      "assets/note-media/11-cover.webp",
+      "assets/note-media/11-detail.webp"
+    ],
+    "photo": "素材/Pinterest生活感照片/露营_傍晚围桌吃饭.jpg",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "素材/露营与风景照片/07_户外日记与蜡笔装饰.jpg",
+    "cover_source": {
+      "file": "素材/Pinterest生活感照片/露营_傍晚围桌吃饭.jpg",
+      "source_page": "https://www.pinterest.com/pin/540502392791011251/",
+      "image_url": "https://i.pinimg.com/originals/a2/e0/24/a2e02473ab0c1d66977c31af8bfa5ba2.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio retained; downscaled only within 750x1000; no added text or watermark removal.",
+      "visible_watermark_review": "No visible platform/account watermark found during visual and OCR review."
+    },
+    "copy": {
+      "title": "天黑后围桌吃饭，周末就该慢一点",
+      "lead": "留一顿晚餐，等天色慢慢暗下来",
+      "paragraphs": [
+        "天还没全黑，三个人围着小桌吃晚饭，桌上亮起一盏灯。锅和餐具放在手边，不赶着结束，就是周末的节奏。",
+        "山里傍晚凉得快，先看夜间温度和早晚温差。保暖外套放在椅子旁，坐久了就披上，不用回帐篷翻包。",
+        "吃完把餐具和垃圾集中收好，桌边留出走路的位置。准备过夜，睡袋与防潮垫也提前核对，吃饱和睡暖都要安排。"
+      ],
+      "points": [
+        "围桌晚餐留出取物和走路位置",
+        "保暖外套放在伸手能拿到的地方",
+        "过夜前核对睡袋与防潮垫"
+      ],
+      "tags": [
+        "营地晚餐",
+        "露营保暖"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "12": {
+    "images": [
+      "assets/note-media/12-cover.webp",
+      "assets/note-media/12-detail.webp"
+    ],
+    "photo": "assets/photos/camp-stove.webp",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/camp-stove.webp",
+    "cover_source": {
+      "file": "assets/photos/camp-stove.webp",
+      "provenance": "existing-project-original",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio preserved; downscaled only within 750x1000; no added gradient, title or author overlay.",
+      "attribution_reference": "assets/photos/README.md"
+    },
+    "copy": {
+      "title": "户外炉具和气罐，过夜用品分开准备",
+      "lead": "炉具配气罐，烧水和过夜分开看",
+      "paragraphs": [
+        "黄色炉具放在气罐上，旁边是草地。出发前按型号核对炉具与防风气罐的适配，再把做饭小物装在一起，到营地好找。",
+        "用之前把底座放稳，留出操作空间。是否能用火提前问清，再按设备说明检查和使用。",
+        "过夜用品另放一袋，保暖睡袋和干燥衣物不跟炉具混装。烧水顺手和夜里够暖，是两件要分别准备的事。"
+      ],
+      "points": [
+        "按具体型号核对炉具与气罐",
+        "底座放稳，留好操作空间",
+        "保暖睡袋与做饭器具分开放"
+      ],
+      "tags": [
+        "露营炉具",
+        "过夜准备"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "13": {
+    "images": [
+      "assets/note-media/13-cover.webp",
+      "assets/note-media/13-detail.webp"
+    ],
+    "photo": "assets/photos/outdoor-night.webp",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/outdoor-night.webp",
+    "cover_source": {
+      "file": "assets/photos/outdoor-night.webp",
+      "provenance": "existing-project-original",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio preserved; downscaled only within 750x1000; no added gradient, title or author overlay.",
+      "attribution_reference": "assets/photos/README.md"
+    },
+    "copy": {
+      "title": "山间湖边先看白天，停车与山风别漏",
+      "lead": "先到湖边走走，再安排山里过夜",
+      "paragraphs": [
+        "湖面映着树林，岸边有间小木屋，白天的云很有层次。想在半山观星台附近过夜，先趁天亮看看环境。",
+        "停车和进出路线提前确认，不等天黑再找位置。湖边坐着凉快，山风起来也会冷，外套放在方便拿的位置。",
+        "烧水前问清用火规定，防风气罐与炉具按说明适配。照片是白天的风景，观星还要另看当晚天气。"
+      ],
+      "points": [
+        "趁天亮确认停车与进出",
+        "湖边休息留意山风",
+        "问清用火，核对炉具与气罐"
+      ],
+      "tags": [
+        "山间湖畔",
+        "露营补充"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "14": {
+    "images": [
+      "assets/note-media/14-cover.webp",
+      "assets/note-media/14-detail.webp"
+    ],
+    "photo": "assets/photos/mountain-camp.webp",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/mountain-camp.webp",
+    "cover_source": {
+      "file": "assets/photos/mountain-camp.webp",
+      "provenance": "existing-project-original",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio preserved; downscaled only within 750x1000; no added gradient, title or author overlay.",
+      "attribution_reference": "assets/photos/README.md"
+    },
+    "copy": {
+      "title": "山里露营看风景，保暖的 5 个准备点",
+      "lead": "白天看远山，晚上另备保暖层",
+      "paragraphs": [
+        "白云下是连绵的山和大片树林，站在开阔处看风景很舒服。准备去山里露营，我会先查夜间最低温，再决定带哪些外层。",
+        "白天有太阳，不代表天黑后也暖。保暖层、干燥衣物和袜子单独装好，放在随时能拿到的位置，不用到了晚上翻整袋东西。",
+        "出发前再过一遍：最低温、保暖层、干燥衣物、袜子和取用位置。看完风景要过夜，睡袋与防潮垫也一起核对。"
+      ],
+      "points": [
+        "查看夜间最低温再带衣物",
+        "保暖层、干衣物和袜子单独放",
+        "睡袋与防潮垫一起核对"
+      ],
+      "tags": [
+        "山间露营",
+        "夜间保暖"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "100": {
+    "images": [
+      "assets/note-media/100-cover.webp",
+      "assets/note-media/100-detail.webp"
+    ],
+    "photo": "穿搭图片素材/059_驼色外套_蓝衬衫叠穿.jpg",
+    "kind": "illustrative-demo-note",
+    "cover_source": {
+      "file": "穿搭图片素材/059_驼色外套_蓝衬衫叠穿.jpg",
+      "source_page": "https://zhuanlan.zhihu.com/p/585957491",
+      "image_url": "https://pic2.zhimg.com/v2-e7310595fc4595c7d107fd44becf766d_r.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "processing": "Original aspect ratio preserved; downscaled only within 750x1000; no added overlay or watermark removal."
+    },
+    "copy": "Fictional demo copy based on visible clothing; not a quotation from the source page."
+  },
+  "101": {
+    "images": [
+      "assets/note-media/101-cover.webp",
+      "assets/note-media/101-detail.webp"
+    ],
+    "photo": "素材/Pinterest生活感照片/穿搭_米白风衣与白色小包.jpg",
+    "kind": "illustrative-demo-note",
+    "cover_source": {
+      "file": "素材/Pinterest生活感照片/穿搭_米白风衣与白色小包.jpg",
+      "source_page": "https://www.pinterest.com/pin/484559241179501893/",
+      "image_url": "https://i.pinimg.com/originals/47/e1/61/47e161c91de08d1c4fa69bda12816986.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio retained; downscaled only within 750x1000; no added text or watermark removal.",
+      "visible_watermark_review": "No visible platform/account watermark found during visual and OCR review."
+    },
+    "copy": {
+      "title": "长外套怎么搭？米白配黑色也能穿得利落",
+      "lead": "米白长外套，里面用黑白色衔接",
+      "paragraphs": [
+        "这套用米白长外套搭白色衬衫和黑色长裤，浅色留在上半身，深色落在下装。外套敞开时，内搭轮廓仍然清楚，不需要再增加很多颜色。",
+        "白色包袋与衬衫呼应，肩部就保持简洁。出门前也会看当天风力和降温，再决定里面穿多厚。",
+        "这是米白外套的配色参考，外套长度、内搭厚度需要按自己的衣橱与体感调整。"
+      ],
+      "points": [
+        "米白外套搭白衬衫与黑裤",
+        "包袋与衬衫颜色呼应",
+        "根据天气调整内搭厚度"
+      ],
+      "tags": [
+        "长外套搭配",
+        "黑白配色"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content",
+      "updated_at": "2026-11-05"
+    },
+    "previous_photo": "穿搭图片素材/038_米白长外套_街角.jpg"
+  },
+  "102": {
+    "images": [
+      "assets/note-media/102-cover.webp",
+      "assets/note-media/102-detail.webp"
+    ],
+    "photo": "素材/Pinterest生活感照片/穿搭_灰绿短外套与黑色长靴.jpg",
+    "kind": "illustrative-demo-note",
+    "cover_source": {
+      "file": "素材/Pinterest生活感照片/穿搭_灰绿短外套与黑色长靴.jpg",
+      "source_page": "https://www.pinterest.com/pin/325666616829697794/",
+      "image_url": "https://i.pinimg.com/736x/49/02/b7/4902b7c921114630d19e4008b9006154.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio retained; downscaled only within 750x1000; no added text or watermark removal.",
+      "visible_watermark_review": "No visible platform/account watermark found during visual and OCR review."
+    },
+    "copy": {
+      "title": "通勤鞋怎么选，黑色长靴搭出利落轮廓",
+      "lead": "灰绿短外套配黑靴，先看长度",
+      "paragraphs": [
+        "这套灰绿外套配黑色长靴，深色短裤藏在下摆下，靴子露出清楚的轮廓。选鞋时，我会一起看外套下摆和靴筒的长度。",
+        "黑色小包和长靴呼应，让外套成为主体。需要久走时先试穿，再看鞋头与整体搭配。",
+        "照片可以参考鞋履配色和比例，具体舒适度与脚型有关，不能从造型判断。"
+      ],
+      "points": [
+        "外套下摆与靴筒一起看",
+        "鞋包用黑色呼应",
+        "先试穿，再判断通勤是否合适"
+      ],
+      "tags": [
+        "通勤鞋",
+        "短外套搭配"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content",
+      "updated_at": "2026-11-05"
+    },
+    "previous_photo": "穿搭图片素材/062_米色风衣_极简墙面.jpg"
+  },
+  "103": {
+    "images": [
+      "assets/note-media/103-cover.webp",
+      "assets/note-media/103-detail.webp"
+    ],
+    "photo": "素材/Pinterest生活感照片/穿搭_浅色外套与格纹围巾.jpg",
+    "kind": "illustrative-demo-note",
+    "cover_source": {
+      "file": "素材/Pinterest生活感照片/穿搭_浅色外套与格纹围巾.jpg",
+      "source_page": "https://www.pinterest.com/pin/962785226612951730/",
+      "image_url": "https://i.pinimg.com/originals/33/df/1d/33df1d5eb5a23a73ea7b2a6767c5804e.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio retained; downscaled only. Existing top anchoring in cover components preserved.",
+      "visible_watermark_review": "No visible platform/account watermark found during visual and OCR review."
+    },
+    "copy": {
+      "lead": "浅色外套配格纹围巾，简单就好",
+      "paragraphs": [
+        "这套浅色外套搭格纹针织围巾和牛仔裤，帽子留在接近的米色里。配色不用复杂，深色放在包袋与围巾，浅色留在外层。",
+        "同一件外套也可以换一条围巾，颜色和领口层次变化，就能从工作日继续穿到周末。",
+        "围巾已有体积，内搭就不再堆厚。针织与外套一起穿时控制总厚度，按当天体感增减。"
+      ],
+      "points": [
+        "浅色外套搭格纹针织围巾",
+        "帽子与外套用米色衔接",
+        "更换围巾也能复用同一件外套"
+      ],
+      "tags": [
+        "针织围巾",
+        "通勤配色"
+      ],
+      "title": "浅色外套配格纹围巾，基础款也不沉闷",
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content",
+      "updated_at": "2026-11-05"
+    },
+    "previous_photo": "穿搭图片素材/211_灰色针织_围巾贝雷帽.jpg"
+  },
+  "104": {
+    "images": [
+      "assets/note-media/104-cover.webp",
+      "assets/note-media/104-detail.webp"
+    ],
+    "photo": "穿搭图片素材/230_驼色长外套_街边全身.png",
+    "kind": "illustrative-demo-note",
+    "cover_source": {
+      "file": "穿搭图片素材/230_驼色长外套_街边全身.png",
+      "source_page": "https://ishare.ifeng.com/c/s/v002OMvK3JRPFES0UtKtNdu9sS454yTH3x5ZYIFSLD01Vws__",
+      "image_url": "https://x0.ifengimg.com/res/2020/5F3E2B302E9E5210DBC0AABEAF01C1CC941C9CA7_size1674_w829_h1105.png",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "processing": "Original aspect ratio preserved; downscaled only within 750x1000; no added overlay or watermark removal."
+    },
+    "copy": "Fictional demo copy based on visible clothing; not a quotation from the source page."
+  },
+  "105": {
+    "images": [
+      "assets/note-media/105-cover.webp",
+      "assets/note-media/105-detail.webp"
+    ],
+    "photo": "穿搭图片素材/042_棕色大衣_咖啡街景.jpg",
+    "kind": "illustrative-demo-note",
+    "cover_source": {
+      "file": "穿搭图片素材/042_棕色大衣_咖啡街景.jpg",
+      "source_page": "https://k.sina.cn/article_3937811117_eab63aad019016tu4.html?from=fashion",
+      "image_url": "https://n.sinaimg.cn/sinakd20221205s/1/w1080h1321/20221205/08bf-2c20fd21d8e439098ac2a2b28f09ad40.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "processing": "Original aspect ratio preserved; downscaled only within 750x1000; no added overlay or watermark removal."
+    },
+    "copy": "Fictional demo copy based on visible clothing; not a quotation from the source page."
+  },
+  "106": {
+    "images": [
+      "assets/note-media/106-cover.webp",
+      "assets/note-media/106-detail.webp"
+    ],
+    "photo": "素材/Pinterest生活感照片/穿搭_深色夹克与米色长裤.jpg",
+    "kind": "illustrative-demo-note",
+    "cover_source": {
+      "file": "素材/Pinterest生活感照片/穿搭_深色夹克与米色长裤.jpg",
+      "source_page": "https://www.pinterest.com/pin/680395456248215325/",
+      "image_url": "https://i.pinimg.com/originals/09/e5/20/09e520ddf5779a189e96cf1241c1117a.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio retained; downscaled only within 750x1000; no added text or watermark removal.",
+      "visible_watermark_review": "No visible platform/account watermark found during visual and OCR review."
+    },
+    "copy": {
+      "title": "周五下班直接约会，一件夹克换场景",
+      "lead": "深色夹克，通勤之外也能穿",
+      "paragraphs": [
+        "这套深色夹克搭白色针织与米色长裤，包袋和鞋子保持黑色。白天保留基础内搭，下班约会前再从外套或配饰调整氛围，换起来也方便。",
+        "领口露出浅色内搭，就不再增加装饰。鞋包尽量简单，先保证走路和取物方便。",
+        "这是深色短外套的搭配参考，场合和天气不同，需要替换的单品也会不同。"
+      ],
+      "points": [
+        "深色外套搭浅色领口",
+        "用外套或配饰切换场景",
+        "兼顾走路与取物"
+      ],
+      "tags": [
+        "下班约会",
+        "一衣多穿"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content",
+      "updated_at": "2026-11-05"
+    },
+    "previous_photo": "穿搭图片素材/066_灰蓝大衣_日常街拍.jpg"
+  },
+  "107": {
+    "images": [
+      "assets/note-media/107-cover.webp",
+      "assets/note-media/107-detail.webp"
+    ],
+    "photo": "素材/Pinterest生活感照片/穿搭_拼色短夹克与牛仔裤.jpg",
+    "kind": "illustrative-demo-note",
+    "cover_source": {
+      "file": "素材/Pinterest生活感照片/穿搭_拼色短夹克与牛仔裤.jpg",
+      "source_page": "https://www.pinterest.com/pin/680395456248326780/",
+      "image_url": "https://i.pinimg.com/originals/e1/26/f2/e126f2102949113df09ea446906aab3c.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio retained; downscaled only within 750x1000; no added text or watermark removal.",
+      "visible_watermark_review": "No visible platform/account watermark found during visual and OCR review."
+    },
+    "copy": {
+      "title": "秋冬通勤避雷，别把厚重都穿在身上",
+      "lead": "拼色短夹克，里面留一点层次",
+      "paragraphs": [
+        "这套拼色短夹克露出一截浅色衬衫，下装用深蓝牛仔裤衔接。外套已有宽松感，围巾和内搭就不再一起堆厚，抬手也轻松。",
+        "室内外温差大时，用分层穿搭方便增减。先看路上和办公室的情况，再决定中间层厚度。",
+        "这篇记录穿搭里的取舍，不从照片判断保暖性能，也不把单次体感当成所有人的标准。"
+      ],
+      "points": [
+        "全身只保留一个宽松重点",
+        "用分层应对室内外温差",
+        "牛仔裤衔接浅色内搭"
+      ],
+      "tags": [
+        "秋冬避雷",
+        "分层穿搭"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content",
+      "updated_at": "2026-11-05"
+    },
+    "previous_photo": "穿搭图片素材/212_灰色短外套_室内镜拍.jpg"
+  },
+  "108": {
+    "images": [
+      "assets/note-media/108-cover.webp",
+      "assets/note-media/108-detail.webp"
+    ],
+    "photo": "素材/Pinterest生活感照片/穿搭_灰绿针织与百褶裙.jpg",
+    "kind": "illustrative-demo-note",
+    "cover_source": {
+      "file": "素材/Pinterest生活感照片/穿搭_灰绿针织与百褶裙.jpg",
+      "source_page": "https://www.pinterest.com/pin/939282066024461580/",
+      "image_url": "https://i.pinimg.com/originals/d4/e2/37/d4e237f488b7ad6c4e26684e0cc8b6af.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio retained; downscaled only within 750x1000; no added text or watermark removal.",
+      "visible_watermark_review": "No visible platform/account watermark found during visual and OCR review."
+    },
+    "copy": {
+      "title": "一周穿搭计划，重复利用衣橱里的单品",
+      "lead": "灰绿针织配短裙，周末也能用",
+      "paragraphs": [
+        "这套灰绿针织搭百褶短裙和棕色长靴，包袋也留在接近的颜色里。同一件针织可以从工作日进入周末，不必每天换整套，照镜子时也好比较。",
+        "先看一周天气与场合，让下装和鞋包颜色兼容。临时有变化，只替换一件也能继续穿。",
+        "这是一组日常衣橱的搭配参考，衣物数量、洗护节奏和通勤需要不同，可以再调整。"
+      ],
+      "points": [
+        "先看一周天气与场合",
+        "同一件针织进入不同组合",
+        "让下装与鞋包互相兼容"
+      ],
+      "tags": [
+        "一周穿搭",
+        "衣橱规划"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content",
+      "updated_at": "2026-11-05"
+    },
+    "previous_photo": "穿搭图片素材/243_驼色外套_公园散步.jpg"
+  },
+  "200": {
+    "images": [
+      "assets/note-media/200-cover.webp",
+      "assets/note-media/200-detail.webp"
+    ],
+    "photo": "素材/Pinterest生活感照片/咖啡_阳光下的双人小桌.jpg",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/coffee-shop.webp",
+    "cover_source": {
+      "file": "素材/Pinterest生活感照片/咖啡_阳光下的双人小桌.jpg",
+      "source_page": "https://www.pinterest.com/pin/843932417720325988/",
+      "image_url": "https://i.pinimg.com/originals/6f/89/41/6f89414cd5076bfacafe3dc0414086c1.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio retained; downscaled only within 750x1000; no added text or watermark removal.",
+      "visible_watermark_review": "No visible platform/account watermark found during visual and OCR review."
+    },
+    "copy": {
+      "title": "周末咖啡小记｜阳光落在桌边",
+      "lead": "阳光落在桌边的咖啡时间",
+      "paragraphs": [
+        "两杯咖啡和蛋糕摆在绿色小桌上，翻着菜单坐一会儿。比起一次跑完很多店，我更喜欢留出慢慢聊天的时间。",
+        "出发前再查营业时间，想久坐的话也提前确认座位情况。"
+      ],
+      "points": [
+        "咖啡和甜点就能坐一个下午",
+        "出发前核对营业时间与座位"
+      ],
+      "tags": [
+        "咖啡日常",
+        "周末小记"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "201": {
+    "images": [
+      "assets/note-media/201-cover.webp",
+      "assets/note-media/201-detail.webp"
+    ],
+    "photo": "素材/封面去重替换/201_棕色托特包与灰色外套.jpg",
+    "kind": "illustrative-demo-note",
+    "copy": {
+      "title": "通勤托特包合集，容量真能装",
+      "lead": "棕色托特包的容量与收纳",
+      "paragraphs": [
+        "棕色托特包搭灰色外套与浅色围巾。我先列出电脑、水杯和小物，再核对容量与分区。",
+        "装满以后试背一下，重量和取物是否顺手都比空包照片更值得参考。"
+      ],
+      "points": [
+        "棕色包袋搭配灰色与浅色",
+        "先核对随身物品，装满后试背"
+      ],
+      "tags": [
+        "通勤包",
+        "容量收纳"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content"
+    },
+    "updated": "2026-11-05; duplicate cover replaced with unique composition and matching demo copy",
+    "previous_photo": "穿搭图片素材/042_棕色大衣_咖啡街景.jpg",
+    "cover_source": {
+      "file": "素材/封面去重替换/201_棕色托特包与灰色外套.jpg",
+      "source_page": "https://ca.pinterest.com/search/pins/?q=brown%20leather%20tote%20bag%20work%20everyday%20outfit",
+      "image_url": "https://i.pinimg.com/474x/bd/d0/28/bdd028d917719bc9a12d7ef989cd07d1.jpg",
+      "title": "The Cognac Bag Formula for Quieter Workwear",
+      "discovery": "Pinterest image search; search result uses an opaque ID, not represented as a numeric Pin URL.",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "processing": "Original retained; downscaled only; no added text or watermark removal."
+    }
+  },
+  "202": {
+    "images": [
+      "assets/note-media/202-cover.webp",
+      "assets/note-media/202-detail.webp"
+    ],
+    "photo": "素材/Pinterest生活感照片/食物_厨房的一锅晚餐.jpg",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/fresh-food.webp",
+    "cover_source": {
+      "file": "素材/Pinterest生活感照片/食物_厨房的一锅晚餐.jpg",
+      "source_page": "https://www.pinterest.com/pin/787707791104771357/",
+      "image_url": "https://i.pinimg.com/originals/4d/85/93/4d8593e2fb9c5905b6d0681d33a7d496.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio retained; downscaled only within 750x1000; no added text or watermark removal.",
+      "visible_watermark_review": "No visible platform/account watermark found during visual and OCR review."
+    },
+    "copy": {
+      "title": "下班一锅菜，西兰花肉丁备好",
+      "lead": "一口炒锅，装下下班后的晚餐",
+      "paragraphs": [
+        "回家不想摆太多盘，就把西兰花、配菜和肉丁放进一口锅里。先把食材摆在手边，按熟成速度安排下锅顺序，做完就能开饭。",
+        "调味和分量按自己口味调整，出锅前确认食材熟透，别只看照片颜色。"
+      ],
+      "points": [
+        "先把肉丁与配菜准备好",
+        "按食材熟成速度安排顺序"
+      ],
+      "tags": [
+        "下班做饭",
+        "一锅晚餐"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "203": {
+    "images": [
+      "assets/note-media/203-cover.webp",
+      "assets/note-media/203-detail.webp"
+    ],
+    "photo": "素材/封面去重替换/203_衣柜悬挂与折叠收纳.jpg",
+    "kind": "illustrative-demo-note",
+    "copy": {
+      "title": "衣柜整理术，一个周末搞定",
+      "lead": "周末整理衣柜",
+      "paragraphs": [
+        "常穿衣物悬挂，针织折叠放好，再按取用频率安排位置。",
+        "整理后留一点空位，换季时继续调整，不要求一次完成所有收纳。"
+      ],
+      "points": [
+        "悬挂与折叠分区，常穿衣物方便拿取",
+        "整理后留空位，换季继续调整"
+      ],
+      "tags": [
+        "衣柜整理",
+        "日常收纳"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content"
+    },
+    "updated": "2026-11-05; duplicate cover replaced with unique composition and matching demo copy",
+    "previous_photo": "穿搭图片素材/039_棕色大衣_室内全身.jpg",
+    "cover_source": {
+      "file": "素材/封面去重替换/203_衣柜悬挂与折叠收纳.jpg",
+      "source_page": "https://bambrise.com/17-small-closet-ideas-with-clear-zones-for-daily-outfits/",
+      "image_url": "https://i.pinimg.com/474x/aa/70/11/aa7011baaac22fcca294dbd528f150aa.jpg",
+      "title": "17 Small Closet Ideas With Clear Zones for Daily Outfits - BambRise",
+      "discovery": "Pinterest image search; search result uses an opaque ID, not represented as a numeric Pin URL.",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "processing": "Original retained; downscaled only; no added text or watermark removal."
+    }
+  },
+  "204": {
+    "images": [
+      "assets/note-media/204-cover.webp",
+      "assets/note-media/204-detail.webp"
+    ],
+    "photo": "素材/Pinterest生活感照片/运动_客厅铺垫舒展.jpg",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/forest-trail.webp",
+    "cover_source": {
+      "file": "素材/Pinterest生活感照片/运动_客厅铺垫舒展.jpg",
+      "source_page": "https://www.pinterest.com/pin/790241065923352036/",
+      "image_url": "https://i.pinimg.com/originals/5a/4d/e9/5a4de933e5720a33b8bb6f9c43dce82c.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio retained; downscaled only within 750x1000; no added text or watermark removal.",
+      "visible_watermark_review": "No visible platform/account watermark found during visual and OCR review."
+    },
+    "copy": {
+      "title": "居家舒展 15 分钟，铺好垫子",
+      "lead": "铺开垫子，给自己一点活动时间",
+      "paragraphs": [
+        "把垫子铺在客厅，挪开身边杂物，留一小段时间舒展。动作放慢，先找到自己做起来舒服的幅度。",
+        "按今天的状态决定练多久，累了就休息，让活动容易开始。"
+      ],
+      "points": [
+        "铺垫前先移开周围杂物",
+        "按当天状态调整幅度与时长"
+      ],
+      "tags": [
+        "居家运动",
+        "日常舒展"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "205": {
+    "images": [
+      "assets/note-media/205-cover.webp",
+      "assets/note-media/205-detail.webp"
+    ],
+    "photo": "素材/Pinterest生活感照片/旅行_西湖游船与雷峰塔.jpg",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/forest-trail.webp",
+    "cover_source": {
+      "file": "素材/Pinterest生活感照片/旅行_西湖游船与雷峰塔.jpg",
+      "source_page": "https://www.pinterest.com/pin/1022669027887623470/",
+      "image_url": "https://i.pinimg.com/originals/52/0d/02/520d025b9217c7860a5ed44a453c6920.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio retained; downscaled only within 750x1000; no added text or watermark removal.",
+      "visible_watermark_review": "No visible platform/account watermark found during visual and OCR review."
+    },
+    "copy": {
+      "title": "杭州两日慢游，看看西湖",
+      "lead": "西湖边慢慢走，看一会儿游船",
+      "paragraphs": [
+        "湖上有一艘游船，远处雷峰塔藏在绿树里。我把杭州两天的路线放慢，同一天尽量少折返，沿湖预留休息时间。",
+        "开放时间、预约与交通出发前重新核对，坐船也先看当日安排。"
+      ],
+      "points": [
+        "沿湖慢走，留出休息时间",
+        "游船与开放安排出发前核对"
+      ],
+      "tags": [
+        "杭州旅行",
+        "西湖散步"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "206": {
+    "images": [
+      "assets/note-media/206-cover.webp",
+      "assets/note-media/206-detail.webp"
+    ],
+    "photo": "穿搭图片素材/251_白色针织_极简室内.png",
+    "kind": "illustrative-demo-note",
+    "copy": "Fictional demo copy based on visible clothing; not a quotation from the source page.",
+    "reused_from_note_id": 103,
+    "updated": "2026-11-05; replaced legacy fashion/placeholder cover with existing outfit photography"
+  },
+  "207": {
+    "images": [
+      "assets/note-media/207-cover.webp",
+      "assets/note-media/207-detail.webp"
+    ],
+    "photo": "素材/Pinterest生活感照片/摄影_圆桌咖啡与光影.jpg",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/camera.webp",
+    "cover_source": {
+      "file": "素材/Pinterest生活感照片/摄影_圆桌咖啡与光影.jpg",
+      "source_page": "https://www.pinterest.com/pin/85357355434670818/",
+      "image_url": "https://i.pinimg.com/originals/e5/c2/ad/e5c2ad451dbc70132d56ac9f599096af.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio retained; downscaled only within 750x1000; no added text or watermark removal.",
+      "visible_watermark_review": "No visible platform/account watermark found during visual and OCR review."
+    },
+    "copy": {
+      "title": "咖啡桌构图的 8 个小练习",
+      "lead": "一杯咖啡，也能练习画面留白",
+      "paragraphs": [
+        "俯拍桌边的咖啡、面包和书，先看桌边与椅子的关系。物品放在一侧，让桌面和光影留一点空白，画面没那么挤。",
+        "拍照时保留真实环境，构图只是参考，不必每张都套同一角度。"
+      ],
+      "points": [
+        "先看桌边与椅子的线条",
+        "物品留在一侧，让光影透出来"
+      ],
+      "tags": [
+        "日常摄影",
+        "构图练习"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "208": {
+    "images": [
+      "assets/note-media/208-cover.webp",
+      "assets/note-media/208-detail.webp"
+    ],
+    "photo": "素材/封面去重替换/208_棕色短外套与条纹衬衫.jpg",
+    "kind": "illustrative-demo-note",
+    "copy": {
+      "title": "秋冬通勤配色，棕色基础款搭得更省心",
+      "lead": "棕色外套与条纹衬衫的层次",
+      "paragraphs": [
+        "棕色短外套搭浅色条纹衬衫与格纹短裙，领带呼应外套颜色。先用已有基础款定好主色，再从领口留一处层次变化。",
+        "参考搭配时也看自己的衣橱和通勤需要，不必为复刻额外买齐同款。"
+      ],
+      "points": [
+        "棕色外套作为配色主体",
+        "条纹衬衫与领带丰富领口层次"
+      ],
+      "tags": [
+        "通勤配色",
+        "基础款"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content"
+    },
+    "updated": "2026-11-05; duplicate cover replaced with unique composition and matching demo copy",
+    "previous_photo": "素材/Pinterest生活感照片/穿搭_街边米色风衣与长靴.jpg",
+    "cover_source": {
+      "file": "素材/封面去重替换/208_棕色短外套与条纹衬衫.jpg",
+      "source_page": "https://www.pinterest.com/pin/669910513362562220/",
+      "image_url": "https://i.pinimg.com/originals/12/5b/a4/125ba4829d7f395b1e15f030f7328db4.jpg",
+      "title": null,
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "processing": "Original retained; downscaled only; no added text or watermark removal."
+    }
+  },
+  "209": {
+    "images": [
+      "assets/note-media/209-cover.webp",
+      "assets/note-media/209-detail.webp"
+    ],
+    "photo": "素材/Pinterest生活感照片/美妆_红色小包与随身口红.jpg",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/cosmetics.webp",
+    "cover_source": {
+      "file": "素材/Pinterest生活感照片/美妆_红色小包与随身口红.jpg",
+      "source_page": "https://www.pinterest.com/pin/664562488806990429/",
+      "image_url": "https://i.pinimg.com/736x/29/fd/28/29fd2825d1ca41bf3b5c4556c78d5560.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio retained; downscaled only within 750x1000; no added text or watermark removal.",
+      "visible_watermark_review": "No visible platform/account watermark found during visual and OCR review."
+    },
+    "copy": {
+      "title": "随身口红小记，日常补妆够用",
+      "lead": "红色小包，装下日常补妆",
+      "paragraphs": [
+        "红色小包和常用口红摆在床边，出门前一起收好。比起带齐所有颜色，我更想留好顺手的位置。",
+        "颜色和质地在日常光线下自己试，包里小物按当天需要增减。"
+      ],
+      "points": [
+        "常用口红放在好拿的位置",
+        "颜色在日常光线下再比较"
+      ],
+      "tags": [
+        "随身化妆包",
+        "口红日常"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "210": {
+    "images": [
+      "assets/note-media/210-cover.webp",
+      "assets/note-media/210-detail.webp"
+    ],
+    "photo": "素材/Pinterest生活感照片/咖啡_冰拿铁与肉桂卷.jpg",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/coffee-cup.webp",
+    "cover_source": {
+      "file": "素材/Pinterest生活感照片/咖啡_冰拿铁与肉桂卷.jpg",
+      "source_page": "https://www.pinterest.com/pin/845269423844878690/",
+      "image_url": "https://i.pinimg.com/originals/b7/10/02/b710026f6e3fc5f295b4810a002d001f.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio retained; downscaled only within 750x1000; no added text or watermark removal.",
+      "visible_watermark_review": "No visible platform/account watermark found during visual and OCR review."
+    },
+    "copy": {
+      "title": "周末新发现，适合独坐的咖啡角落",
+      "lead": "一杯拿铁，配一点慢下来的时间",
+      "paragraphs": [
+        "冰拿铁和肉桂卷摆在木桌上，阳光落在杯边。找个独坐的角落，吃点东西、翻两页书，留一段安静时间。",
+        "营业时间与座位可能变化，出发前再次确认；坐得舒服比打卡很多店重要。"
+      ],
+      "points": [
+        "一杯咖啡配一点小甜点",
+        "选座时留意光线与店内声音"
+      ],
+      "tags": [
+        "独处时间",
+        "咖啡日常"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "211": {
+    "images": [
+      "assets/note-media/211-cover.webp",
+      "assets/note-media/211-detail.webp"
+    ],
+    "photo": "素材/封面去重替换/211_橄榄绿风衣与牛仔裤.jpg",
+    "kind": "illustrative-demo-note",
+    "copy": {
+      "title": "通勤配色，橄榄绿与牛仔蓝搭得更省心",
+      "lead": "橄榄绿与牛仔蓝的日常搭配",
+      "paragraphs": [
+        "橄榄绿风衣搭黑色上衣和蓝色牛仔裤，包袋也留在黑色里。出门前把衣服与包放在一起看，先确定常穿的基础色。",
+        "参考搭配时也看自己的衣橱和通勤需要，不必为复刻额外买齐同款。"
+      ],
+      "points": [
+        "橄榄绿与牛仔蓝搭出日常层次",
+        "黑色上衣与包袋互相呼应"
+      ],
+      "tags": [
+        "通勤配色",
+        "风衣日常"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content"
+    },
+    "updated": "2026-11-05; duplicate cover replaced with unique composition and matching demo copy",
+    "previous_photo": "素材/Pinterest生活感照片/穿搭_奶白针织与帆布包.jpg",
+    "cover_source": {
+      "file": "素材/封面去重替换/211_橄榄绿风衣与牛仔裤.jpg",
+      "source_page": "https://www.pinterest.com/pin/1001488035909156730/",
+      "image_url": "https://i.pinimg.com/originals/66/d6/4c/66d64c06056840f1711ccc59cab6d569.png",
+      "title": null,
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "processing": "Original retained; downscaled only; no added text or watermark removal."
+    }
+  },
+  "212": {
+    "images": [
+      "assets/note-media/212-cover.webp",
+      "assets/note-media/212-detail.webp"
+    ],
+    "photo": "素材/Pinterest生活感照片/食物_炒锅与分好的配菜.jpg",
+    "kind": "illustrative-demo-note",
+    "previous_photo": "assets/photos/healthy-food.webp",
+    "cover_source": {
+      "file": "素材/Pinterest生活感照片/食物_炒锅与分好的配菜.jpg",
+      "source_page": "https://www.pinterest.com/pin/1132866481286262733/",
+      "image_url": "https://i.pinimg.com/originals/b0/84/f2/b084f2580230ec6e5f46d708e8759e71.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio retained; downscaled only within 750x1000; no added text or watermark removal.",
+      "visible_watermark_review": "No visible platform/account watermark found during visual and OCR review."
+    },
+    "copy": {
+      "title": "炒锅晚餐新菜单，工作日这样备菜",
+      "lead": "先把配菜切好，做晚餐顺一点",
+      "paragraphs": [
+        "锅里翻炒着切好的肉，旁边放好彩椒、西兰花和玉米。开火前先把菜切好分开摆，下锅时就不用再腾手找东西。",
+        "食材的分量和熟成速度不同，调味按自己口味调整，出锅前确认熟透。"
+      ],
+      "points": [
+        "彩椒与西兰花提前处理好",
+        "食材分开摆，炒菜时更顺手"
+      ],
+      "tags": [
+        "工作日晚餐",
+        "备菜日常"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content",
+      "updated_at": "2026-11-05"
+    }
+  },
+  "109": {
+    "images": [
+      "assets/note-media/109-cover.webp",
+      "assets/note-media/109-detail.webp"
+    ],
+    "photo": "素材/Pinterest生活感照片/穿搭_街边米色风衣与长靴.jpg",
+    "kind": "illustrative-demo-note",
+    "cover_source": {
+      "file": "素材/Pinterest生活感照片/穿搭_街边米色风衣与长靴.jpg",
+      "source_page": "https://www.pinterest.com/pin/730709108313970778/",
+      "image_url": "https://i.pinimg.com/originals/89/dc/f8/89dcf81e3a12a9de03421779cf9cb748.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio retained; downscaled only within 750x1000; no added text or watermark removal.",
+      "visible_watermark_review": "No visible platform/account watermark found during visual and OCR review."
+    },
+    "copy": {
+      "title": "米色风衣配黑色，通勤不用堆很多颜色",
+      "lead": "米色风衣与黑色，用腰带分层",
+      "paragraphs": [
+        "这套米色风衣搭黑色下装与长靴，腰带收出清楚的轮廓。大面积中性色搭配时，先看深浅与腰线位置，不必再增加很多配饰。",
+        "外套下摆自然展开，靴筒露出一点层次。想复用这组配色，可以从衣橱里的米黑基础款开始。",
+        "颜色不必每件完全一样，光线也会改变米色观感，实际搭配还是要放在一起比较。"
+      ],
+      "points": [
+        "米色风衣搭黑色下装",
+        "用腰带理清上下身比例",
+        "用颜色深浅区分层次"
+      ],
+      "tags": [
+        "通勤配色",
+        "风衣搭配"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content",
+      "updated_at": "2026-11-05"
+    },
+    "previous_photo": "穿搭图片素材/037_灰色大衣_简洁背景.jpg"
+  },
+  "110": {
+    "images": [
+      "assets/note-media/110-cover.webp",
+      "assets/note-media/110-detail.webp"
+    ],
+    "photo": "穿搭图片素材/039_棕色大衣_室内全身.jpg",
+    "kind": "illustrative-demo-note",
+    "cover_source": {
+      "file": "穿搭图片素材/039_棕色大衣_室内全身.jpg",
+      "source_page": "https://post.smzdm.com/p/awm4mr02/",
+      "image_url": "https://a.zdmimg.com/202601/31/697db3bea5f872236.jpg_e1080.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "processing": "Original aspect ratio preserved; downscaled only within 750x1000; no added overlay or watermark removal."
+    },
+    "copy": "Fictional demo copy based on visible clothing; not a quotation from the source page."
+  },
+  "111": {
+    "images": [
+      "assets/note-media/111-cover.webp",
+      "assets/note-media/111-detail.webp"
+    ],
+    "photo": "穿搭图片素材/046_棕色大衣_室内日光.jpg",
+    "kind": "illustrative-demo-note",
+    "cover_source": {
+      "file": "穿搭图片素材/046_棕色大衣_室内日光.jpg",
+      "source_page": "https://detail.1688.com/offer/682688882558.html",
+      "image_url": "https://cbu01.alicdn.com/img/ibank/O1CN01Zdao7u1w82xCKZ5HY_!!2046186262-0-cib.jpg?__r__=1667468980157",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "processing": "Original aspect ratio preserved; downscaled only within 750x1000; no added overlay or watermark removal."
+    },
+    "copy": "Fictional demo copy based on visible clothing; not a quotation from the source page."
+  },
+  "112": {
+    "images": [
+      "assets/note-media/112-cover.webp",
+      "assets/note-media/112-detail.webp"
+    ],
+    "photo": "穿搭图片素材/078_棕色风衣_草地.jpg",
+    "kind": "illustrative-demo-note",
+    "cover_source": {
+      "file": "穿搭图片素材/078_棕色风衣_草地.jpg",
+      "source_page": "https://k.sina.com.cn/article_6504901717_183b8ec55001018sy2.html",
+      "image_url": "https://n.sinaimg.cn/sinakd20121/680/w930h1350/20221024/f580-588645622f8af2227d544160208b792d.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "processing": "Original aspect ratio preserved; downscaled only within 750x1000; no added overlay or watermark removal."
+    },
+    "copy": "Fictional demo copy based on visible clothing; not a quotation from the source page."
+  },
+  "113": {
+    "images": [
+      "assets/note-media/113-cover.webp",
+      "assets/note-media/113-detail.webp"
+    ],
+    "photo": "穿搭图片素材/094_驼色风衣_建筑光影.jpg",
+    "kind": "illustrative-demo-note",
+    "cover_source": {
+      "file": "穿搭图片素材/094_驼色风衣_建筑光影.jpg",
+      "source_page": "https://www.vogue.com.cn/invogue/vogue-style/news_1915cb98ec3267f6.html",
+      "image_url": "https://img0.selfimg.com.cn/uedvoguecms/2019/02/28/1551344404_0mOwbM.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "processing": "Original aspect ratio preserved; downscaled only within 750x1000; no added overlay or watermark removal."
+    },
+    "copy": "Fictional demo copy based on visible clothing; not a quotation from the source page."
+  },
+  "114": {
+    "images": [
+      "assets/note-media/114-cover.webp",
+      "assets/note-media/114-detail.webp"
+    ],
+    "photo": "素材/Pinterest生活感照片/穿搭_奶白针织与帆布包.jpg",
+    "kind": "illustrative-demo-note",
+    "cover_source": {
+      "file": "素材/Pinterest生活感照片/穿搭_奶白针织与帆布包.jpg",
+      "source_page": "https://www.pinterest.com/pin/8585055537045055/",
+      "image_url": "https://i.pinimg.com/originals/24/b6/9b/24b69b790f6a7a747e6a06960a662e19.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio retained; downscaled only within 750x1000; no added text or watermark removal.",
+      "visible_watermark_review": "No visible platform/account watermark found during visual and OCR review."
+    },
+    "copy": {
+      "title": "奶白针织配布包，黑色帽子点亮秋冬",
+      "lead": "奶白针织做底，黑帽子留作重点",
+      "paragraphs": [
+        "这套奶白针织搭灰色长裤和帆布包，黑色针织帽留一处颜色变化。想让配饰有重点，可以先把衣服和包袋留在接近的浅色里，出门更轻松。",
+        "针织已有纹理，领口就不再叠太多层。需要带围巾时，先控制总厚度，再在镜子前看肩颈层次。",
+        "照片参考配色与叠穿顺序，围巾是否需要带、针织穿多厚，按当天体感决定。"
+      ],
+      "points": [
+        "奶白与灰色做基础",
+        "只留一处黑色配饰变化",
+        "围巾与针织控制总厚度"
+      ],
+      "tags": [
+        "针织搭配",
+        "秋冬配饰"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content",
+      "updated_at": "2026-11-05"
+    },
+    "previous_photo": "穿搭图片素材/211_灰色针织_围巾贝雷帽.jpg"
+  },
+  "115": {
+    "images": [
+      "assets/note-media/115-cover.webp",
+      "assets/note-media/115-detail.webp"
+    ],
+    "photo": "素材/Pinterest生活感照片/穿搭_奶白卫衣与深色长裤.jpg",
+    "kind": "illustrative-demo-note",
+    "cover_source": {
+      "file": "素材/Pinterest生活感照片/穿搭_奶白卫衣与深色长裤.jpg",
+      "source_page": "https://www.pinterest.com/pin/556335360239204424/",
+      "image_url": "https://i.pinimg.com/originals/6f/72/1b/6f721b823df86b8c744abc6daf432b1b.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio retained; downscaled only within 750x1000; no added text or watermark removal.",
+      "visible_watermark_review": "No visible platform/account watermark found during visual and OCR review."
+    },
+    "copy": {
+      "title": "奶白卫衣配深色裤，秋天也能穿得轻快",
+      "lead": "奶白卫衣配深色裤，颜色轻一点",
+      "paragraphs": [
+        "这套奶白连帽卫衣搭深色长裤，裤脚落在浅色运动鞋上。上衣已有宽松感，下半身保留清楚的轮廓，不再堆厚重单品，出门也方便。",
+        "奶白色留一处提亮，深色长裤衔接日常衣橱。换成已有的牛仔下装，也能继续尝试。",
+        "室内可以少穿一层，分层厚度按当天体感调整。照片只参考造型，不代表卫衣保暖性能。"
+      ],
+      "points": [
+        "奶白卫衣搭深色长裤",
+        "全身保留一个宽松重点",
+        "分层方便室内外增减"
+      ],
+      "tags": [
+        "卫衣穿搭",
+        "浅色搭配"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content",
+      "updated_at": "2026-11-05"
+    },
+    "previous_photo": "穿搭图片素材/220_黄色开衫_室内镜拍.jpg"
+  },
+  "116": {
+    "images": [
+      "assets/note-media/116-cover.webp",
+      "assets/note-media/116-detail.webp"
+    ],
+    "photo": "素材/Pinterest生活感照片/穿搭_夹克白袜与长靴.jpg",
+    "kind": "illustrative-demo-note",
+    "cover_source": {
+      "file": "素材/Pinterest生活感照片/穿搭_夹克白袜与长靴.jpg",
+      "source_page": "https://www.pinterest.com/pin/924786104734522744/",
+      "image_url": "https://i.pinimg.com/originals/32/19/90/321990cea1be77dbce564608a45b7bf5.jpg",
+      "license": "not-verified",
+      "usage": "local-demo-reference",
+      "updated_at": "2026-11-05",
+      "processing": "Original aspect ratio retained; downscaled only within 750x1000; no added text or watermark removal.",
+      "visible_watermark_review": "No visible platform/account watermark found during visual and OCR review."
+    },
+    "copy": {
+      "title": "深色夹克搭白袜长靴，腿部层次更利落",
+      "lead": "深色夹克与长靴，白袜是重点",
+      "paragraphs": [
+        "这套深色夹克搭浅色内搭与黑色长靴，白袜在靴口上方露出一截。先看外套下摆，再看袜口与靴筒关系，照镜子时整体比例更清楚。",
+        "外套和长靴用深色呼应，白色袜子负责提亮。夹克本身有体积，不必再增加很多装饰。",
+        "外套、袜子与靴子的长度要实际试穿，照片参考配色，不必照搬露肤与厚度。"
+      ],
+      "points": [
+        "外套下摆留出清楚轮廓",
+        "深色夹克搭白袜黑靴",
+        "在镜子前核对袜口与靴筒"
+      ],
+      "tags": [
+        "长靴搭配",
+        "秋冬比例"
+      ],
+      "type": "fictional-demo-note",
+      "basis": "visible-photo-content",
+      "updated_at": "2026-11-05"
+    },
+    "previous_photo": "穿搭图片素材/258_奶白毛衣_日光镜拍.jpg"
+  }
+}
